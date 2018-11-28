@@ -1,0 +1,291 @@
+/** 2017/10/18
+* @author: kj
+* @description:
+*/
+div.form-group1 {
+  position: relative;
+  margin-bottom: 10px;
+}
+div.form-group1 b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+div.form-group1 label {
+  color: #333;
+  font-weight: normal;
+}
+div.form-group1 input {
+  width: 280px;
+  height: 34px;
+  text-indent: 5px;
+  color: #666;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  border-radius: 4px;
+}
+div.form-group1 input:focus {
+  outline: none;
+}
+div.form-group1 span {
+  display: block;
+  margin-top: 10px;
+  visibility: hidden;
+  color: red;
+}
+#cancelOwner {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/cancel.png") no-repeat 5% 2px;
+}
+#saveOwner {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/save.png") no-repeat 5% 2px;
+}
+.mianPage {
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#cae4c0));
+  height: 100%;
+}
+.mianPage .headerposBox {
+  height: 60px;
+}
+.mianPage header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.mianPage header .headerBox {
+  width: 100%;
+  display: flex;
+  height: 60px;
+}
+.mianPage header .headerBox .cmLogo {
+  width: 210px;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  box-shadow: 0px 1px 7px #f1eaea;
+  background: #fff;
+  cursor: pointer;
+}
+.mianPage header .headerBox .cmLogo img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+.mianPage header .headerBox nav {
+  flex-grow: 1;
+}
+.mianPage header .headerBox nav ul {
+  list-style: none;
+  background: #121E28;
+  display: flex;
+  height: 60px;
+  line-height: 60px;
+}
+.mianPage header .headerBox nav ul li {
+  display: flex;
+}
+.mianPage header .headerBox nav ul li a {
+  text-decoration: none;
+  font-size: 1.142857em;
+  color: #fff;
+}
+.mianPage header .headerBox nav ul li .next {
+  width: 52px;
+  height: 60px;
+}
+.mianPage header .headerBox nav ul li .next img {
+  vertical-align: -1px;
+}
+.mianPage header .headerBox nav ul li .firPer {
+  display: none;
+}
+.mianPage header .headerBox nav ul li:first-child .firPer {
+  display: inline-block;
+  width: 52px;
+  height: 60px;
+}
+.mianPage header .headerBox nav ul li:first-child .firPer img {
+  vertical-align: -1px;
+  margin-left: -1px;
+}
+.mianPage header .headerBox .other {
+  display: flex;
+  line-height: 60px;
+  background: #121E28;
+  color: #FFFFFF;
+  justify-content: flex-end;
+}
+.mianPage header .headerBox .other > div {
+  margin-right: 25px;
+  font-size: 1.142857em;
+}
+.mianPage header .headerBox .other .showDrop {
+  position: absolute;
+  display: none;
+  z-index: 99;
+  background: #01B1ED;
+  color: #fff;
+  left: -13px;
+  padding: 10px 0 ;
+  width: 100px;
+  border-radius: 5px;
+}
+.mianPage header .headerBox .other .showDrop .triangle-up {
+  position: absolute;
+  top: -12px;
+  width: 0;
+  left: 44px;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 12px solid #01b1ed;
+}
+.mianPage header .headerBox .other .alarm {
+  cursor: pointer;
+  position: relative;
+}
+.mianPage header .headerBox .other .alarm li {
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.mianPage header .headerBox .other .alarm .showDrop {
+  left: -34px;
+}
+.mianPage header .headerBox .other .alarm:hover .showDrop {
+  display: block;
+}
+.mianPage header .headerBox .other .admin.sp-user {
+  cursor: pointer;
+  position: relative;
+}
+.mianPage header .headerBox .other .admin.sp-user li {
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.mianPage header .headerBox .other .admin.sp-user:hover .showDrop {
+  display: block;
+}
+.mianPage header .headerBox .other .admin img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.mianPage header .headerBox .other .setup {
+  cursor: pointer;
+}
+.mianPage header .headerBox .other .exit {
+  cursor: pointer;
+}
+.mianPage .mianPage_container {
+  height: 100%;
+}
+.mianPage .mainPageScroll {
+  height: calc(100% - 60px);
+  overflow: auto;
+}
+.mianPage .noPlant {
+  width: 1500px;
+  margin: 0 auto;
+}
+.mianPage .noPlant img {
+  margin: 50px auto;
+}
+.alarmSetWin .setRow {
+  text-align: center;
+  margin-top: 15px;
+}
+.alarmSetWin .selectItem {
+  width: 200px;
+  height: 36px;
+  line-height: 36px;
+}
+.alarmSetWin .radioItem {
+  cursor: pointer;
+}
+.alarmSetWin .radioBox {
+  display: flex;
+  justify-content: space-around;
+}
+.alarmSetWin .radioBox b {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+  background: url("/images/io/box.png") no-repeat center;
+}
+.alarmSetWin .radioBox b.on {
+  background: url("/images/io/box_2.png") no-repeat center;
+}
+.alarmSetWin .radioItem {
+  display: flex;
+  align-content: center;
+}
+@media (max-width: 1500px) {
+  .mianPage {
+    width: 100%;
+  }
+  .mianPage header {
+    width: 100%;
+  }
+  .mianPage header nav {
+    background: red;
+  }
+  .mianPage header .headerBox .cmLogo {
+    width: 10%;
+  }
+  .mianPage header .other .admin {
+    margin-right: 5px;
+  }
+  .mianPage_container {
+    width: 100%;
+  }
+  .mianPage_container .paManyPlant_content {
+    width: 100%;
+  }
+  .mianPage_container .banner_box {
+    width: 100%;
+  }
+  .mianPage_container .power_box {
+    width: 100%;
+  }
+  .mianPage_container .plantTableInfo {
+    width: 100%;
+  }
+  .mianPage_container .noPlant {
+    width: 100%;
+  }
+}
+@media (max-width: 1366px) {
+  .mianPage {
+    width: 100%;
+  }
+  .mianPage header nav ul {
+    width: 100%;
+  }
+  .mianPage header .headerBox .cmLogo {
+    width: 10%;
+  }
+  .mianPage header .other .admin {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 1024px) {
+  .mianPage {
+    width: 1024px;
+  }
+  .mianPage header {
+    width: 1024px;
+  }
+  .mianPage header .headerBox .cmLogo {
+    width: 9%;
+  }
+}

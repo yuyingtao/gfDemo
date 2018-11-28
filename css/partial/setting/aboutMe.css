@@ -1,0 +1,199 @@
+.messList {
+  padding-left: 52px;
+  text-align: left;
+  font-size: 1rem;
+  color: #666;
+}
+.messList p {
+  margin-bottom: 48px;
+}
+.messList p .messListSp {
+  color: #333333;
+  display: inline-block;
+  width: 65px;
+  text-align: justify;
+}
+.headImg {
+  display: flex;
+  align-items: flex-start;
+}
+.headImg span {
+  display: inline-block;
+}
+.headBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #EBEBEB;
+}
+.headBox img {
+  width: 120px;
+  height: 120px;
+}
+.edit {
+  margin-left: 84px;
+  font-size: 0.86rem;
+}
+.edit:before {
+  background: url(/images/setting/edit.png) no-repeat center;
+}
+.editBox {
+  padding-left: 52px;
+  text-align: left;
+  font-size: 1rem;
+}
+.editBox .editMess {
+  font-size: 0.86rem;
+  width: 80px;
+}
+.editBox .editMess .impMess {
+  color: red;
+}
+.editBox .editColum {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  position: relative;
+}
+.editBox .editColum label {
+  display: inline-block;
+  padding-left: 248px;
+  margin-left: 5px;
+  color: #FF0E26;
+  width: 100%;
+}
+.editBox .editColum input {
+  padding: 0 10px;
+  color: #666;
+}
+.editBox .editColum .trueClass {
+  border: 1px solid #01B1ED;
+}
+.editBox .editColum .falseClass {
+  border: 1px solid #FF0E26;
+}
+.editBox .editColum .codeImg {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+.editBox .editColum .phoneNum {
+  display: flex;
+  align-items: center;
+}
+.editBox .editColum .AreaCode {
+  display: inline-block;
+  width: 50px;
+  height: 36px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  outline: none;
+}
+.editBox .editColum .phoneNumMess {
+  margin: 0 5px;
+}
+.editBox .editColumfi {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.editBox .headBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 4px;
+  border: 1px solid #EBEBEB;
+  overflow: hidden;
+  position: relative;
+}
+.editBox .headBox img {
+  width: 100%;
+  height: 100%;
+}
+.editBox .headBox input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  opacity: 0;
+  z-index: 20;
+  filter: alpha(opacity=0);
+}
+.editBox .headBox .uploadA {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 30;
+}
+.editBox .sug {
+  font-size: 0.86rem;
+  height: 120px;
+  color: #ff0e26;
+  display: flex;
+  margin-left: 17px;
+  align-items: flex-end;
+}
+.editBox .messInput {
+  display: inline-block;
+  width: 360px;
+  height: 36px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  outline: none;
+}
+.editBox .messInput1 {
+  width: 293px;
+}
+.editBox .cancel {
+  margin-left: 164px;
+  font-size: 0.86rem;
+}
+.editBox .cancel:before {
+  background: url(/images/setting/cancel.png) no-repeat center;
+}
+.editBox .preservation {
+  margin-left: 34px;
+  font-size: 0.86rem;
+}
+.editBox .preservation:before {
+  background: url(/images/setting/save.png) no-repeat center;
+}
+.editBox .verificationMess {
+  width: 430px;
+  font-size: 0.86rem;
+  color: #FF0E26;
+  text-align: right;
+  margin-top: -9px;
+  margin-bottom: 5px;
+}
+.editBox .verificationMess1 {
+  width: 430px;
+  font-size: 0.86rem;
+  color: #FF0E26;
+  text-align: right;
+  margin-top: -9px;
+  margin-bottom: 5px;
+}
+.errStyle {
+  width: 360px;
+  height: 36px;
+  border: 1px solid red !important;
+  background: url("/images/setting/false.png") no-repeat right;
+}
+.rightStyle {
+  width: 360px;
+  height: 36px;
+  border: 1px solid #01B1ED !important;
+  background: url("/images/setting/ture.png") no-repeat right;
+}
+label .error {
+  color: #FF0E26;
+}

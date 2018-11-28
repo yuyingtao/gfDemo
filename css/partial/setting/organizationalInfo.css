@@ -1,0 +1,474 @@
+.organizationBox {
+  display: flex;
+  height: 100%;
+}
+.organizationLf {
+  width: 294px;
+  min-width: 294px;
+  overflow-x: auto;
+  border-right: 1px solid #E7E7E7;
+  height: 100%;
+}
+.organizationLf .searchBox {
+  width: 270px;
+  height: 34px;
+  position: relative;
+  margin: 0 auto 26px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+}
+.organizationLf .searchBox .addOr {
+  position: absolute;
+  right: 30px;
+  top: 64px;
+}
+.organizationLf .searchBox .delOr {
+  position: absolute;
+  right: 4px;
+  top: 64px;
+}
+.organizationLf .searchBox .searchImg {
+  width: 18px;
+  height: 18px;
+  margin: 6px 8px;
+  text-align: center;
+  line-height: 18px;
+}
+.organizationLf .searchBox .searchImg img {
+  vertical-align: -3px;
+}
+.organizationLf .searchBox input {
+  display: block;
+  width: 180px;
+  border: none;
+  outline: none;
+  color: #ccc;
+  font-size: 1rem;
+}
+.organizationLf .searchBox input::-webkit-input-placeholder {
+  color: #D3D3D3;
+  font-size: 1rem;
+}
+.organizationLf .searchBox .searchBtn {
+  cursor: pointer;
+  width: 55px;
+  height: 33px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  background: #01b1ed;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.ztree {
+  width: 100%;
+  height: 700px;
+}
+.ztree li ul {
+  height: auto;
+}
+.ztree li a.curSelectedNode {
+  border: none;
+  background: none;
+}
+.ztree li a.curSelectedNode .node_name {
+  border-radius: 4px;
+  padding: 4px 5px;
+  background: #01B1ED;
+  color: white;
+}
+.ztree li span.button.root_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.root_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.ico_close {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.ico_open {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.center_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.center_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span {
+  font-size: 1.14rem;
+  line-height: 24px;
+  font-family: "Microsoft YaHei";
+}
+.ztree li span.button {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.pIcon01_ico_open {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li.level1 {
+  margin-top: 26px;
+}
+.ztree li.level2 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level3 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level4 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level5 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level6 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level7 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level8 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level9 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level10 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li span.button.pIcon01_ico_close {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon01_ico_docu {
+  margin-right: 0px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li a:hover {
+  text-decoration: none;
+}
+.ztree li span.button.icon03 {
+  margin-right: 0px;
+  background: url("/images/setting/addOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon04 {
+  background: url("/images/setting/delOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.organizationRi {
+  flex-grow: 1;
+  padding-left: 12px;
+  text-align: left;
+}
+.organizationRi .cpLog {
+  width: 119px;
+  padding-left: 8px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  color: white;
+  text-align: left;
+  background: url("/images/setting/title.png");
+}
+.organizationRi .orDetai {
+  border-top: 1px dashed #E0E0E0;
+  padding-top: 28px;
+}
+.organizationRi .orDetai p {
+  margin-bottom: 46px;
+  color: #666666;
+  font-size: 1rem;
+}
+.organizationRi .orDetai p .messName {
+  display: inline-block;
+  width: 96px;
+  font-size: 1rem;
+  margin-right: 3px;
+  text-align: right;
+  color: #333;
+}
+.organizationRi .orDetai p .isUse {
+  color: #29AD00;
+}
+.organizationRi .orEdit {
+  border-top: 1px dashed #E0E0E0;
+  padding-top: 28px;
+  display: none;
+}
+.organizationRi .orEdit p {
+  margin-bottom: 18px;
+  color: #666666;
+  font-size: 1rem;
+}
+.organizationRi .orEdit p .messName {
+  display: inline-block;
+  width: 96px;
+  font-size: 1rem;
+  text-align: right;
+  color: #333;
+}
+.organizationRi .orEdit p .messName span {
+  color: red;
+  vertical-align: -3px;
+  margin-right: 3px;
+}
+.organizationRi .orEdit p input {
+  display: inline-block;
+  padding-left: 7px;
+  width: 360px;
+  height: 36px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+.organizationRi .orEdit .phoneNum .AreaCode {
+  width: 50px;
+  height: 36px;
+}
+.organizationRi .orEdit .submit {
+  margin-left: 200px;
+  margin-top: 56px;
+}
+.organizationRi .orEdit .submit .cancel {
+  margin-right: 34px;
+}
+.organizationRi .orEdit .submit .cancel:before {
+  background: url(/images/setting/cancel.png) no-repeat center;
+}
+.organizationRi .orEdit .submit .preservation:before {
+  background: url(/images/setting/save.png) no-repeat center;
+}
+.orEdit p {
+  margin-bottom: 8px;
+  color: #666666;
+  font-size: 1rem;
+}
+.orEdit p .messName {
+  display: inline-block;
+  width: 96px;
+  font-size: 1rem;
+  text-align: right;
+  color: #333;
+}
+.orEdit p .messName span {
+  color: red;
+  vertical-align: -3px;
+  margin-right: 3px;
+}
+.orEdit p input {
+  display: inline-block;
+  padding-left: 7px;
+  width: 280px;
+  height: 36px;
+  border: 1px solid #E0E0E0;
+  border-radius: 4px;
+}
+.orEdit p .orImg {
+  display: inline-block;
+  width: 280px;
+  text-align: left;
+}
+.orEdit .phoneNum .AreaCode {
+  width: 50px;
+  height: 36px;
+}
+.orEdit .submit {
+  font-size: 0.86rem;
+  margin-left: 140px;
+  margin-top: 56px;
+}
+.orEdit .submit .cancel {
+  margin-right: 34px;
+}
+.orEdit .submit .cancel:before {
+  background: url(/images/setting/cancel.png) no-repeat center;
+}
+.orEdit .submit .preservation:before {
+  background: url(/images/setting/save.png) no-repeat center;
+}
+.OrgmodifyPassword {
+  line-height: 34px;
+  font-size: 0.86rem;
+}
+.radio {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+.radio div {
+  height: 20px;
+  line-height: 20px;
+}
+.radio img {
+  margin-right: 9px;
+}
+.nexRdio {
+  display: flex;
+  border: 1px dashed #BFBFBF;
+  width: 305px;
+  margin: 0 auto;
+  padding: 0 50px;
+  background: #f7f7f7;
+  height: 58px;
+  align-items: center;
+  justify-content: space-between;
+}
+.nexRdio div img {
+  margin-right: 5px;
+  vertical-align: -4px;
+}
+label.error {
+  display: inline-block;
+  width: 100%;
+  color: #FF0E26;
+  font-weight: normal;
+}
+#pwdForm1 label.error {
+  display: inline-block;
+  margin-top: 4px;
+  width: 100%;
+  color: #FF0E26;
+  font-weight: normal;
+}
+.addCancel {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.addCancel:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/cancel.png) no-repeat center;
+  overflow: hidden;
+}
+.addCancel:hover {
+  color: #fff;
+  opacity: .9;
+}
+.addSave {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.addSave:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/save.png) no-repeat center;
+  overflow: hidden;
+}
+.addSave:hover {
+  color: #fff;
+  opacity: .9;
+}
+.isShow label.error {
+  margin-top: 10px;
+  margin-left: 150px;
+}
+@media (max-width: 1920px) {
+  .organizationRi p input {
+    width: 260px;
+  }
+}
+@media (max-width: 1500px) {
+  .organizationRi .orEdit .submit {
+    margin-left: 110px;
+  }
+  .organizationRi .orEdit p input {
+    width: 260px;
+  }
+}
+@media (max-width: 1366px) {
+  .organizationRi .orEdit .submit {
+    margin-left: 70px;
+  }
+  .organizationRi .orEdit p input {
+    width: 180px;
+  }
+}

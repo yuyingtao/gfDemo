@@ -1,0 +1,277 @@
+.inverterTable {
+  font-size: 1rem;
+  width: 97.6%;
+  min-width: 800px;
+}
+.inverterTable tbody tr td {
+  color: #666!important;
+  position: relative;
+}
+.inverterTable tbody tr td .zoomIcon {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  height: 18px;
+  width: 18px;
+  background: rgba(0, 0, 0, 0.4);
+  left: 30px;
+  top: 20px;
+}
+.inverterTable tbody tr td .imgs:hover .zoomIcon {
+  display: block;
+}
+.inverterTable tbody tr td .bigImg {
+  background: #fff;
+  display: none;
+  position: absolute;
+  left: -50px;
+  top: -130px;
+  z-index: 200;
+  width: 220px;
+  height: 140px;
+}
+.inverterTable tbody tr td .bigImg img {
+  margin: 11px 22px;
+  width: 176px;
+  height: 118px;
+}
+.inverterTable tbody tr td .bigImg a {
+  color: #01B1ED;
+  font-size: 1.14rem;
+  position: absolute;
+  right: 5px;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float: none;
+  text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.25em 1em!important;
+}
+form#inverterTep,
+form#newInverterTep {
+  font-size: 1rem;
+}
+form#inverterTep div.leftInfo,
+form#newInverterTep div.leftInfo {
+  width: 440px;
+  border-right: 1px solid #E1E1E1;
+}
+form#inverterTep div.leftInfo input,
+form#newInverterTep div.leftInfo input {
+  margin-right: 30px;
+}
+form#inverterTep div.leftInfo i,
+form#newInverterTep div.leftInfo i {
+  margin-right: 30px;
+}
+form#inverterTep div.rightInfo,
+form#newInverterTep div.rightInfo {
+  width: 400px;
+}
+form#inverterTep .uploadImgBox,
+form#newInverterTep .uploadImgBox {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 194px;
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  background: #EBEBEB;
+  border: 1px solid  #E7E7E7;
+  border-radius: 4px;
+  margin-right: 12px;
+  left: -110px;
+}
+form#inverterTep .uploadImgBox img,
+form#newInverterTep .uploadImgBox img {
+  width: 100%;
+  height: 100%;
+}
+form#inverterTep .uploadImgBox input[type="file"],
+form#newInverterTep .uploadImgBox input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form#inverterTep .uploadImgBox .uploadA,
+form#newInverterTep .uploadImgBox .uploadA {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form#inverterTep .uploadImgBox .uploadA img,
+form#newInverterTep .uploadImgBox .uploadA img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form#inverterTep .uploadImgBox .uploadA input[type="file"],
+form#newInverterTep .uploadImgBox .uploadA input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  z-index: 20;
+  filter: alpha(opacity=0);
+  outline: 1px solid red;
+}
+form#inverterTep div.item-group,
+form#newInverterTep div.item-group {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: right;
+}
+form#inverterTep div.item-group b,
+form#newInverterTep div.item-group b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+form#inverterTep div.item-group label,
+form#newInverterTep div.item-group label {
+  color: #333;
+  font-weight: normal;
+}
+form#inverterTep div.item-group label.error,
+form#newInverterTep div.item-group label.error {
+  margin-top: 10px;
+  color: #FF0E26;
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+}
+form#inverterTep div.item-group input,
+form#newInverterTep div.item-group input {
+  width: 280px;
+  height: 34px;
+  text-indent: 5px;
+  color: #666;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  border-radius: 4px;
+}
+form#inverterTep div.item-group input.input1,
+form#newInverterTep div.item-group input.input1 {
+  width: 244px;
+  margin: 0;
+}
+form#inverterTep div.item-group i,
+form#newInverterTep div.item-group i {
+  display: inline-block;
+  width: 36px;
+  text-align: left;
+}
+form#inverterTep div.item-group i.imgStatus,
+form#newInverterTep div.item-group i.imgStatus {
+  display: inline-block;
+  width: 280px;
+}
+form#inverterTep div.item-group input:focus,
+form#newInverterTep div.item-group input:focus {
+  outline: none;
+}
+form#inverterTep div.item-group input.sysTel,
+form#newInverterTep div.item-group input.sysTel {
+  width: 175px;
+}
+form#inverterTep div.item-group input.plantArea,
+form#newInverterTep div.item-group input.plantArea {
+  width: 266px;
+}
+form#inverterTep div.item-group span.sysSpan,
+form#newInverterTep div.item-group span.sysSpan {
+  display: inline-block;
+  width: 105px;
+}
+form#inverterTep div.item-group span.sysSpan label,
+form#newInverterTep div.item-group span.sysSpan label {
+  vertical-align: middle;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("/images/repImages/rect1.png") no-repeat center;
+  margin-right: 4px;
+}
+form#inverterTep div.item-group textarea,
+form#newInverterTep div.item-group textarea {
+  width: 280px;
+  border: 1px solid #EBEBEB;
+  text-indent: 5px;
+  height: 144px;
+  line-height: 36px;
+  border-radius: 4px;
+}
+form#inverterTep div.item-group textarea:focus,
+form#newInverterTep div.item-group textarea:focus {
+  outline: none;
+}
+form#inverterTep div.item-group select,
+form#newInverterTep div.item-group select {
+  width: 280px;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 98% center;
+  text-indent: 5px;
+  border-radius: 4px;
+}
+form#inverterTep div.item-group select option,
+form#newInverterTep div.item-group select option {
+  padding: 10px 0;
+}
+form#inverterTep div.item-group select:focus,
+form#newInverterTep div.item-group select:focus {
+  outline: none;
+}
+form#inverterTep div.userPic div.picNotice,
+form#newInverterTep div.userPic div.picNotice {
+  width: 280px;
+  height: 120px;
+}
+form#inverterTep div.userPic span,
+form#newInverterTep div.userPic span {
+  color: #FF0E26;
+}
+@media (max-width: 1920px) {
+  .td-noWrap {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .td-noWrap.td-noWrap-time {
+    max-width: 80px;
+  }
+}
+@media (max-width: 1500px) {
+  .td-noWrap {
+    max-width: 100px;
+  }
+}
+@media (max-width: 1366px) {
+  .td-noWrap {
+    max-width: 100px;
+  }
+}

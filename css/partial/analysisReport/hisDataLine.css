@@ -1,0 +1,459 @@
+.hisDataLine {
+  width: 100%;
+  background: #fff;
+}
+.hisDataLine .dataLineCon {
+  width: 98%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hisDataLine .dataLineCon .lineHead {
+  margin-top: 16px;
+  text-align: left;
+  height: 36px;
+  line-height: 36px;
+  color: #333;
+  font-size: 1em;
+  /*右边时间*/
+}
+.hisDataLine .dataLineCon .lineHead .selectPlant {
+  height: 32px;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #c5c5c5;
+  padding: 0 7px;
+  margin-left: 5px;
+  min-width: 200px;
+}
+.hisDataLine .dataLineCon .lineHead .navBar {
+  width: 325px;
+  margin-left: 10px;
+  height: 34px;
+  line-height: 36px;
+  font-size: 1em;
+  color: #333;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px;
+  position: relative;
+}
+.hisDataLine .dataLineCon .lineHead .navBar .chooseArea {
+  width: 100%;
+}
+.hisDataLine .dataLineCon .lineHead .navBar .chooseArea span {
+  height: 34px;
+  line-height: 34px;
+  cursor: pointer;
+}
+.hisDataLine .dataLineCon .lineHead .navBar .filter {
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 5px;
+  background: #01B1ED ;
+  color: #fff;
+  cursor: pointer;
+}
+.hisDataLine .dataLineCon .lineHead .navBar .areaNames {
+  z-index: 20;
+  width: 100%;
+  position: absolute;
+  top: 45px;
+  border: 1px solid #C5C5C5;
+  background: #fff;
+  min-height: 100px;
+  display: none;
+}
+.hisDataLine .dataLineCon .lineHead .navBar .areaNames span {
+  display: inline-block;
+  padding: 0 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+  background: #01B1ED;
+  color: #fff;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox {
+  width: 18.36%;
+  position: relative;
+  margin-left: 26px;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox:before {
+  top: 6px;
+  left: 5px;
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: url("/images/repImages/search.png") no-repeat center;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox input {
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px 0 0 4px;
+  padding: 0 5px 0 28px;
+  color: #666;
+  font-size: 1em;
+  font-weight: 500;
+  float: left;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox input:focus {
+  outline: none;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox input:-ms-input-placeholder {
+  color: #ccc;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox input::-webkit-input-placeholder {
+  color: #ccc;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox .plantContain a {
+  display: block;
+  width: 100%;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+  text-indent: 5px;
+  color: #8A8A8A;
+  font-weight: normal;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox .plantContain a:hover {
+  background: #01B1ED;
+  color: #fff;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox .plantContain {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  display: none;
+}
+.hisDataLine .dataLineCon .lineHead .searchBox .plantContain .arrow {
+  position: absolute;
+  top: 35px;
+  left: 10%;
+  z-index: 99;
+  bottom: -10px;
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  background: url(/images/pmImages/shadow.png);
+}
+.hisDataLine .dataLineCon .lineHead .searchBox .pnContainer {
+  width: 258px;
+  position: absolute;
+  top: 47px;
+  z-index: 20;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 0;
+  box-shadow: 0 0px 7px rgba(68, 68, 68, 0.3);
+}
+.hisDataLine .dataLineCon .lineHead .rightBar {
+  width: 36%;
+  position: relative;
+}
+.hisDataLine .dataLineCon .lineHead .rightBar > div {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+}
+.hisDataLine .dataLineCon .lineHead .rightBar input.timeChoose {
+  width: 100%;
+  display: inline-block;
+  height: 34px;
+  text-indent: 5px;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px;
+  cursor: pointer;
+  background: url("/images/repImages/calendar.png") no-repeat 96% 2px;
+}
+.hisDataLine .dataLineCon .lineHead .rightBar input.timeChoose:focus {
+  outline: none;
+}
+.hisDataLine .dataLineCon .lineHead .rightBar label {
+  display: inline-block;
+  width: 1px;
+  height: 18px;
+  background: #01B1ED;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+.hisDataLine .dataLineCon .lineHead .rightBar a.sureTime {
+  height: 34px;
+  display: inline-block;
+  padding: 0 5px;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: 5px;
+  background: #01B1ED ;
+}
+.hisDataLine .dataLineCon .deviceForm {
+  width: 100%;
+}
+.hisDataLine .dataLineCon .deviceForm form {
+  margin: 0 auto;
+  width: 96.4%;
+  position: relative;
+  clear: both;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset {
+  color: #8A8A8A;
+  border-radius: 4px;
+  font-size: 1em;
+  border: 1px solid #eee;
+  text-align: left;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.selectBtn {
+  width: 100%;
+  float: right;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.selectBtn .formItem {
+  width: 128px;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.selectBtn .formItem input {
+  display: none;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.selectBtn .formItem label.unChoose {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("/images/repImages/rect.png") no-repeat center;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.selectBtn .formItem label.choose {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("/images/repImages/rect1.png") no-repeat center;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.items {
+  min-height: 100px;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset .spanColor span {
+  color: #01B1ED;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.formItem {
+  min-width: 9%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.formItem span {
+  cursor: pointer;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.formItem input {
+  display: none;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.formItem label.unChoose {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("/images/repImages/rect.png") no-repeat center;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.formItem label.choose {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  background: url("/images/repImages/rect1.png") no-repeat center;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.sureBtn {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  height: 34px;
+}
+.hisDataLine .dataLineCon .deviceForm form fieldset div.sureBtn a {
+  display: inline-block;
+  padding: 0 22px;
+  background: #01B1ED;
+  border-radius: 4px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+}
+.hisDataLine .dataLineCon .deviceForm form legend {
+  position: absolute;
+  left: 20px;
+  top: -16px;
+  font-size: 16px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  background: #01B1ED;
+  border-radius: 4px;
+  display: inline-block;
+  width: 110px;
+  color: #fff;
+}
+.hisDataLine .dataLineCon .btns {
+  margin-top: 20px;
+  width: 100%;
+}
+.hisDataLine .dataLineCon .btns a {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  margin-right: 56px;
+  text-indent: 30px;
+}
+.hisDataLine .dataLineCon .btns a#saveLine {
+  width: 114px;
+  background: #01B1ED url("/images/repImages/save.png") no-repeat 5% 2px;
+}
+.hisDataLine .dataLineCon .btns a#canSel {
+  width: 100px;
+  background: #01B1ED url("/images/repImages/cancel.png") no-repeat 5% 2px;
+}
+.hisDataLine .dataLineCon .btns a#getLine {
+  width: 100px;
+  background: #01B1ED url("/images/repImages/curve.png") no-repeat 5% 2px;
+}
+.hisDataLine .dataLineCon .lineBox {
+  width: 100%;
+  height: 500px;
+}
+.hisDataLine .dataLineCon .lineBox #lineContent1 {
+  width: 100%;
+  height: 500px;
+}
+.hisDataLine .dataLineCon div#checkbox {
+  background: yellow;
+}
+.hisDataLine .dataLineCon div#checkbox label.test {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  color: red;
+  background: url("/images/repImages/rect.png") no-repeat center;
+}
+.changeWin1 {
+  position: relative;
+  padding: 20px;
+  text-align: left;
+}
+.changeWin1 .selectPlant {
+  height: 32px;
+  line-height: 32px;
+  border-radius: 4px;
+  border: 1px solid #c5c5c5;
+  padding: 0 7px;
+  margin-left: 5px;
+  min-width: 200px;
+}
+.changeWin1 .map-select-box {
+  display: inline-block;
+  position: absolute;
+  top: 68px;
+  left: 14px;
+  margin-left: 13px;
+  background-color: #fff;
+  padding: 0 0 14px 14px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 7px rgba(68, 68, 68, 0.31);
+  border: 1px solid #ccc;
+  z-index: 99;
+}
+.changeWin1 .map-select-box .arrow {
+  position: absolute;
+  left: 120px;
+  top: -13px;
+}
+.changeWin1 .navigation-tit {
+  text-align: left;
+  color: #01adf6;
+  font-size: 1.1428em;
+}
+.changeWin1 .navigation-box table {
+  min-width: 437px;
+  text-align: left;
+  color: #575757;
+}
+.changeWin1 .navigation-box table td {
+  line-height: 2.4em;
+  padding-right: 15px;
+  white-space: nowrap;
+}
+.changeWin1 .navigation-box table a:hover {
+  color: #ffa35c;
+}
+.changeWin1 .ue-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.changeWin1 .ue-container .bootstrap-duallistbox-container select {
+  width: 100%;
+  margin: 0;
+  height: 318px !important;
+}
+.changeWin1 .imgBtn.comfort {
+  float: right;
+}
+.changeWin1 .imgBtn.comfort:before {
+  background: url("/images/repImages/report.png") no-repeat center;
+}
+.changeWin1 .box1,
+.changeWin1 .box2 {
+  border: 1px solid #E1E1E1;
+  padding: 0;
+  border-radius: 4px;
+  height: 360px;
+}
+.changeWin1 .box1 label,
+.changeWin1 .box2 label {
+  border-bottom: 1px solid #01B1ED;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+.changeWin1 .info-container {
+  display: none;
+}
+.changeWin1 .form-control {
+  border: none;
+  box-shadow: none;
+}
+.changeWin1 .settingUp-btns {
+  display: none;
+}
+.changeWin1 .bootstrap-duallistbox-container .btn-box {
+  padding: 0;
+  float: left;
+  margin: 11% 4%;
+}
+.changeWin1 .btn-box .btn {
+  border-radius: 4px;
+}
+.changeWin1 .cus-ib-cancel {
+  float: right;
+}
+.changeWin1 .cus-ib-cancel:before {
+  background: url("/images/repImages/report.png") no-repeat center;
+}

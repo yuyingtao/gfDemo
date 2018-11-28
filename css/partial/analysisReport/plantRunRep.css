@@ -1,0 +1,308 @@
+.runRep {
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+}
+.runRep .runRepContent {
+  width: 98%;
+  margin: 0 auto;
+  min-height: 800px;
+  overflow: hidden;
+  /* 曲线*/
+  /*报表数据表格*/
+}
+.runRep .runRepContent .repHead {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: left;
+  height: 36px;
+}
+.runRep .runRepContent .repHead .leftBar {
+  width: 18.36%;
+  position: relative;
+  margin-right: 26px;
+}
+.runRep .runRepContent .repHead .leftBar:before {
+  top: 6px;
+  left: 5px;
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  background: url("/images/repImages/search.png") no-repeat center;
+}
+.runRep .runRepContent .repHead .leftBar input {
+  width: calc(100% - 55px);
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #C5C5C5;
+  border-radius: 4px;
+  padding: 0 5px 0 28px;
+  color: #666;
+  font-size: 1em;
+  font-weight: 500;
+  float: left;
+}
+.runRep .runRepContent .repHead .leftBar input:focus {
+  outline: none;
+}
+.runRep .runRepContent .repHead .leftBar input::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+.runRep .runRepContent .repHead :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+.runRep .runRepContent .repHead ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+.runRep .runRepContent .repHead input:-ms-input-placeholder {
+  color: #999;
+}
+.runRep .runRepContent .repHead input::-webkit-input-placeholder {
+  color: #999;
+}
+.runRep .runRepContent .repHead .searchBtn {
+  float: left;
+  display: inline-block;
+  width: 55px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  background-color: #01B1ED;
+  border-radius: 0 4px 4px 0;
+}
+.runRep .runRepContent .repHead .plantContain a {
+  display: block;
+  width: 100%;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+  text-indent: 5px;
+  color: #8A8A8A;
+  font-weight: normal;
+}
+.runRep .runRepContent .repHead .plantContain a:hover {
+  background: #01B1ED;
+  color: #fff;
+}
+.runRep .runRepContent .repHead .plantContain {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  display: none;
+}
+.runRep .runRepContent .repHead .plantContain .arrow {
+  position: absolute;
+  top: 35px;
+  left: 10%;
+  z-index: 99;
+  bottom: -10px;
+  display: inline-block;
+  width: 17px;
+  height: 13px;
+  background: url(/images/pmImages/shadow.png);
+}
+.runRep .runRepContent .repHead .pnContainer {
+  width: 258px;
+  position: absolute;
+  top: 47px;
+  z-index: 20;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 0;
+  box-shadow: 0 0px 7px rgba(68, 68, 68, 0.3);
+}
+.runRep .runRepContent .repHead .centerBar {
+  width: 18.91%;
+  position: relative;
+}
+.runRep .runRepContent .repHead .centerBar:before {
+  top: 2px;
+  right: 5px;
+  position: absolute;
+  content: '';
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("/images/repImages/organizations.png") no-repeat center;
+}
+.runRep .runRepContent .repHead .centerBar span {
+  font-size: 1em;
+  color: #333;
+  display: inline-block;
+  margin-right: 26px;
+}
+.runRep .runRepContent .repHead .centerBar input {
+  width: calc(100% - 63px);
+  border: 1px solid #C5C5C5;
+  padding: 0;
+  height: 34px;
+  line-height: 34px;
+  text-indent: 5px;
+  border-radius: 4px;
+}
+.runRep .runRepContent .repHead .centerBar input:focus {
+  outline: none;
+}
+.runRep .runRepContent .repHead .centerBar label {
+  display: inline-block;
+  width: 1px;
+  height: 18px;
+  background: #C5C5C5;
+  position: absolute;
+  top: 8px;
+  right: 40px;
+}
+.runRep .runRepContent .repHead .rightBar {
+  font-size: 1em;
+  color: #B2B2B2;
+  height: 34px;
+  line-height: 34px;
+  position: relative;
+}
+.runRep .runRepContent .repHead .rightBar .dimenSwi {
+  display: inline-block;
+  width: 110px;
+  border: 1px solid #01B1ED;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 8px;
+  vertical-align: top;
+}
+.runRep .runRepContent .repHead .rightBar .dimenSwi span {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+}
+.runRep .runRepContent .repHead .rightBar .dimenSwi span.activeSpan {
+  background: #01B1ED ;
+  color: white;
+}
+.runRep .runRepContent .repHead .rightBar input {
+  border: 1px solid #B3B3B3;
+  border-radius: 4px;
+  width: 150px;
+  height: 34px;
+  text-indent: 5px;
+  cursor: pointer;
+  margin-right: 15px;
+  background: url("/images/repImages/calendar.png") no-repeat 95% 2px;
+}
+.runRep .runRepContent .repHead .rightBar input:focus {
+  outline: none;
+}
+.runRep .runRepContent .repHead .rightBar a.export:before {
+  top: 0;
+  background: #01B1ED url("/images/repImages/export.png") no-repeat 5% 2px;
+}
+.runRep .runRepContent .repHead .rightBar a.sureTime {
+  margin-right: 15px;
+}
+.runRep .runRepContent .lineBox {
+  width: 100%;
+  height: 350px;
+}
+.runRep .runRepContent .lineBox #lineContent {
+  width: 100%;
+  height: 350px;
+}
+.runRep .runRepContent .repTable {
+  width: 100%;
+}
+.runRep .runRepContent .repTable .caption {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #30A6FA ;
+  color: #fff;
+  font-size: 1.142857em;
+  padding: 0;
+  border-radius: 4px 4px 0 0 ;
+}
+.runRep .runRepContent .repTable .repTableHead {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.runRep .runRepContent .repTable table.stripe thead th {
+  background: #e0f2fe;
+  color: #333;
+  text-align: center;
+}
+.runRep .runRepContent .repTable table.stripe tbody td {
+  text-align: center;
+}
+.runRep .runRepContent .repTable .reportTable {
+  width: 100%;
+}
+.runRep .runRepContent .repTable div.plantInfo {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ededed;
+  line-height: 40px;
+  color: #333;
+  border-bottom: none;
+  font-size: 1.142857em;
+  background: #F5F8FD;
+}
+.runRep .runRepContent .repTable div.plantInfo span {
+  border-right: 1px solid #ededed;
+  display: inline-block;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(1) {
+  width: 10.8%;
+  margin: 0;
+  text-align: center;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(2) {
+  width: 22%;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(3) {
+  width: 12.7%;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(4) {
+  width: 27.8%;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(5) {
+  width: 12.4%;
+}
+.runRep .runRepContent .repTable div.plantInfo span:nth-of-type(6) {
+  width: 10%;
+  border: none;
+}
+/*
+* @description: 响应式，以下为响应式样式设置
+* 需导入默认参数文件@import '../../media.less'
+* 设置宽高度，字体
+* 默认字体为@basicFontSize:14px
+**/
+.plantRep .rep-content {
+  width: 1500px;
+}
+.plantRep .titleBar {
+  width: 1500px;
+}
+@media (max-width: 1500px) {
+  .plantRep .rep-content {
+    width: 100%;
+  }
+  .plantRep .rep-content .palntImg {
+    width: 27.69%;
+  }
+  .plantRep .titleBar {
+    width: 98.5333%;
+  }
+}

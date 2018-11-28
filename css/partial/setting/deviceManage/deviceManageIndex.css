@@ -1,0 +1,162 @@
+.navList1 {
+  width: 100%;
+  height: 100%;
+}
+.navList1 .navUl {
+  width: 19%;
+  padding-top: 26px;
+  background: #fff;
+  float: left;
+  list-style: none;
+  text-align: left;
+  margin-right: 9px;
+  height: 100%;
+}
+.navList1 .navUl li {
+  padding: 20px 0px 20px 36px;
+  margin-bottom: 15px;
+}
+.navList1 .navUl li a {
+  color: #8A8A8A;
+  font-family: "Microsoft Yahei", Verdana, Simsun, "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", "Segoe UI Symbol", "Helvetica Neue", Arial;
+}
+.navList1 .navUl li img {
+  vertical-align: -9px;
+}
+.navList1 .navUl .activeLi {
+  border-left: 6px solid #01B1ED;
+  background: #e5f8ff;
+}
+.navList1 .navUl .activeLi a {
+  color: #01B1ED ;
+}
+.navList1 .messageList {
+  padding-top: 26px;
+  float: right;
+  width: 80%;
+  background: #fff;
+  height: 100%;
+}
+.navList1 .messageList .deviceTab1 {
+  width: 97.6%;
+  height: 36px;
+  margin: 0 auto;
+  border-bottom: 1px solid #DEDEDE;
+}
+.navList1 .messageList .deviceTab1 .deviceUl {
+  text-align: center;
+}
+.navList1 .messageList .deviceTab1 .deviceUl li {
+  float: left;
+  width: 120px;
+  height: 36px;
+  background: #ECECEC;
+  line-height: 34px;
+  border: 1px solid #ECECEC;
+  color: #999;
+}
+.navList1 .messageList .deviceTab1 .deviceUl li:first-child {
+  margin-left: 5px;
+}
+.navList1 .messageList .deviceTab1 .deviceUl li.actLi {
+  background: #fff;
+  border-top: 2px solid #01B1ED;
+  border-radius: 2px;
+  border-bottom: none;
+  color: #333;
+}
+.navList1 .messageList .deviceHead1 {
+  width: 97.6%;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+}
+.navList1 .messageList .deviceHead1 select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 96% center;
+}
+.navList1 .messageList .deviceHead1 .typeDiv {
+  float: left;
+  width: 21.04%;
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+}
+.navList1 .messageList .deviceHead1 .typeDiv span {
+  font-size: 1rem;
+}
+.navList1 .messageList .deviceHead1 .typeDiv input,
+.navList1 .messageList .deviceHead1 .typeDiv select {
+  width: 68%;
+  border: 1px solid #DEDEDE;
+  height: 34px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-indent: 5px;
+}
+.navList1 .messageList .deviceHead1 .typeDiv input:focus,
+.navList1 .messageList .deviceHead1 .typeDiv select:focus {
+  outline: none;
+}
+.navList1 .messageList .deviceHead1 .statusDiv {
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+  font-size: 1rem;
+}
+.navList1 .messageList .deviceHead1 .statusDiv select {
+  width: 90px;
+  height: 34px;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  font-size: 14px;
+  text-indent: 5px;
+}
+.navList1 .messageList .deviceHead1 .statusDiv select:focus {
+  outline: none;
+}
+.navList1 .messageList .deviceHead1 .opeDiv a {
+  width: 80px;
+  float: left;
+  font-size: 1rem;
+  height: 34px;
+  line-height: 34px;
+  display: inline-block;
+  text-indent: 30px;
+  border-radius: 4px;
+  color: #fff;
+  background: #01B1ED url(/images/setting/search_1.png) no-repeat 5% 2px;
+}
+.navList1 .messageList .deviceHead1 .opeDiv a:nth-of-type(1) {
+  margin-left: 24px;
+  margin-right: 15px;
+}
+.navList1 .messageList .deviceHead1 .opeDiv a:nth-of-type(2) {
+  margin-right: 15px;
+  background: #01B1ED url(/images/setting/deviceManage/export2.png) no-repeat 5% 2px;
+}
+.navList1 .messageList .deviceHead1 .opeDiv a:nth-of-type(3) {
+  margin-right: 15px;
+  background: #01B1ED url(/images/repImages/export.png) no-repeat 5% 2px;
+}
+.navList1 .messageList .deviceHead1 .opeDiv a:nth-of-type(4) {
+  background: #01B1ED url(/images/setting/deviceManage/add_1.png) no-repeat 5% 2px;
+}
+@media (max-width: 1500px) {
+  .navList {
+    width: 100%;
+  }
+  .navList ul {
+    width: 17%;
+  }
+  .navList .messageList {
+    width: 70%;
+  }
+}
+@media (max-width: 1366px) {
+  .navList1 .messageList .deviceHead1 .typeDiv input,
+  .navList1 .messageList .deviceHead1 .typeDiv select {
+    width: 50%;
+  }
+}

@@ -1,0 +1,394 @@
+.boxAuto {
+  width: 1500px;
+  margin: 0 auto;
+}
+.boxAuto .banner {
+  margin: 14px auto 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .banner img {
+  width: 100%;
+  height: auto;
+}
+.boxAuto .row1 {
+  display: flex;
+  justify-content: space-between;
+}
+.boxAuto .row1 .poorBox {
+  position: relative;
+}
+.boxAuto .row1 .poorBox .lenged {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  z-index: 100;
+}
+.boxAuto .row1 .poorBox .lenged .lengedNum {
+  font-size: 14px;
+  color: #333;
+}
+.boxAuto .row1 .poorBox .lenged .lengedColor {
+  background: #FFBE31;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 4px;
+}
+.boxAuto .row1 .showBox {
+  width: 22.86%;
+  background: #fff;
+  margin-right: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row1 .showBox .title {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid #F5F3F0;
+}
+.boxAuto .row1 .showBox .title b {
+  display: inline-block;
+  width: 6px;
+  height: 24px;
+  border-radius: 4px;
+  background: #0ABDDD;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.boxAuto .row1 .showBox .subTitleBox {
+  padding: 0 10px;
+  background: #FAFAFA;
+  height: 50px;
+}
+.boxAuto .row1 .showBox .subTitleBox .shadow {
+  height: 1px;
+  background: #F5F3F0;
+  box-shadow: 0 7px 23px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row1 .showBox .subTitleBox .subTitle {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333;
+}
+.boxAuto .row1 .recode {
+  width: 52.4%;
+  background: #FEFEFE;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row1 .recode .arrow {
+  position: absolute;
+  top: 47%;
+  padding: 5px;
+  cursor: pointer;
+}
+.boxAuto .row1 .recode .arrow:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.boxAuto .row1 .recode .leftArrow {
+  left: 6%;
+}
+.boxAuto .row1 .recode .rightArrow {
+  right: 6%;
+}
+.boxAuto .row1 .recode .title {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+.boxAuto .row1 .recode .title b {
+  display: inline-block;
+  width: 6px;
+  height: 24px;
+  border-radius: 4px;
+  background: #0ABDDD;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.boxAuto .row1 .recode .mainBox {
+  width: 78.1%;
+  height: 151px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.boxAuto .row1 .recode .mainBox .eachMain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 14px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  z-index: 11;
+  cursor: pointer;
+}
+.boxAuto .row1 .recode .mainBox .eachMain .img {
+  margin-right: 14px;
+  width: 35%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.boxAuto .row1 .recode .mainBox .eachMain .img img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.boxAuto .row1 .recode .mainBox .eachMain .tex {
+  width: 60%;
+  padding-right: 10px;
+}
+.boxAuto .row1 .recode .mainBox .eachMain .title {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.boxAuto .row1 .recode .mainBox .eachMain .news {
+  font-size: 12px;
+  color: #666;
+  text-indent: 2em;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.boxAuto .row1 .recode .line {
+  display: flex;
+  padding: 0 23px;
+}
+.boxAuto .row1 .recode .line .line-left {
+  width: 10%;
+  height: 45px;
+  border-top: 1px solid #E6E6E6;
+}
+.boxAuto .row1 .recode .line .line-middle {
+  width: 80%;
+  height: 45px;
+  line-height: 45px;
+  border-top: 1px solid #E6E6E6;
+  display: flex;
+  justify-content: space-between;
+}
+.boxAuto .row1 .recode .line .line-middle p {
+  position: relative;
+}
+.boxAuto .row1 .recode .line .line-middle p b {
+  position: absolute;
+  top: -24px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.boxAuto .row1 .recode .line .line-middle p b image {
+  vertical-align: middle;
+}
+.boxAuto .row1 .recode .line .line-middle p span {
+  color: #D1D1D1;
+  font-size: 16px;
+  cursor: pointer;
+}
+.boxAuto .row1 .recode .line .line-middle .activeP span {
+  color: #24242A;
+  font-weight: bold;
+}
+.boxAuto .row1 .recode .line .line-right {
+  width: 10%;
+  height: 45px;
+  border-top: 1px dashed #E6E6E6;
+}
+.boxAuto .row2 {
+  display: flex;
+  margin-top: 10px;
+}
+.boxAuto .row2 .row2-le {
+  width: 46.6%;
+  margin-right: 14px;
+}
+.boxAuto .row2 .row2-le .subBanner {
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row2 .row2-le .subBanner img {
+  width: 100%;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric {
+  display: flex;
+  justify-content: space-between;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox {
+  width: 49.07%;
+  background: #fff;
+  margin-right: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .title {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  border-bottom: 1px solid #F5F3F0;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .title b {
+  display: inline-block;
+  width: 6px;
+  height: 24px;
+  border-radius: 4px;
+  background: #0ABDDD;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .income span {
+  display: inline-block;
+  width: 61.2%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8A8A8A;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .income .incomeNum {
+  width: 61.2%;
+  height: 124px;
+  line-height: 124px;
+  font-weight: bold;
+  font-size: 2.14285rem;
+  color: #555;
+  margin: 0 auto;
+  background: url(/images/povertyAlleviation/photo_3.png);
+  background-size: 100% 100%;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .income .incomeTip {
+  font-size: 1.314rem;
+  color: #555;
+  font-weight: 700;
+  margin: 10px auto;
+  width: 100%;
+  text-align: center;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .subTitleBox {
+  padding: 0 10px;
+  background: #FAFAFA;
+  height: 50px;
+  position: relative;
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .subTitleBox .shadow {
+  height: 1px;
+  background: #F5F3F0;
+  box-shadow: 0 7px 23px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row2 .row2-le .incomeAndElectric .showBox .subTitleBox .subTitle {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  color: #333;
+}
+.boxAuto .row2 .row2-ri {
+  width: 52.4%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.boxAuto .row2 .row2-ri .title {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+.boxAuto .row2 .row2-ri .title b {
+  display: inline-block;
+  width: 6px;
+  height: 24px;
+  border-radius: 4px;
+  background: #0ABDDD;
+  margin-right: 10px;
+  vertical-align: -5px;
+}
+.boxAuto .row2 .row2-ri .tableTitle {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #253646;
+  background: #ECFAFC;
+  padding-left: 24px;
+  border-bottom: 1px solid #DEF6FA;
+  justify-content: space-between;
+}
+.boxAuto .row2 .row2-ri .tableTitle span {
+  text-align: left;
+  display: inline-block;
+  width: 25%;
+}
+.boxAuto .row2 .row2-ri .tableContent {
+  height: 270px;
+}
+.boxAuto .row2 .row2-ri .tableContent .each {
+  display: flex;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  color: #253646;
+  border-bottom: 1px dashed #F0F0F0;
+  padding-left: 24px;
+  justify-content: space-between;
+}
+.boxAuto .row2 .row2-ri .tableContent .each span {
+  text-align: left;
+  padding-left: 10px;
+  display: inline-block;
+  width: 25%;
+}
+.boxAuto .row2 .row2-ri .tableContent .each span:first-child {
+  padding: 0;
+}
+.newsDetail p {
+  font-size: 14px;
+  text-align: left;
+  text-indent: 2em;
+  line-height: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+.newsDetail img {
+  width: 100%;
+}
+.mianPage .mianPage_container {
+  height: 98%;
+}
+@media (max-width: 1500px) {
+  .boxAuto {
+    width: 100%;
+  }
+}

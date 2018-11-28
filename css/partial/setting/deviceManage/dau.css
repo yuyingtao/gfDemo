@@ -1,0 +1,261 @@
+.dauTable {
+  font-size: 1rem;
+  width: 97.6%;
+  min-width: 800px;
+}
+.dauTable tbody tr td {
+  color: #666!important;
+}
+.dauTable tbody tr td:nth-of-type(1) {
+  vertical-align: 12px;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float: none;
+  text-align: center;
+}
+#dauDetailForm,
+#dauForm,
+#dauForm1 {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 1rem;
+}
+#dauDetailForm .dauDiv,
+#dauForm .dauDiv,
+#dauForm1 .dauDiv {
+  width: 33%;
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  margin-bottom: 10px;
+  color: #333;
+  margin-top: 20px;
+}
+#dauDetailForm .dauDiv input,
+#dauForm .dauDiv input,
+#dauForm1 .dauDiv input {
+  width: 160px;
+  height: 34px;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  text-indent: 5px;
+}
+#dauDetailForm .dauDiv input:focus,
+#dauForm .dauDiv input:focus,
+#dauForm1 .dauDiv input:focus {
+  outline: none;
+}
+#dauDetailForm .dauDiv input[disabled],
+#dauForm .dauDiv input[disabled],
+#dauForm1 .dauDiv input[disabled] {
+  background: #f7f7f7;
+}
+#dauDetailForm .dauDiv b,
+#dauForm .dauDiv b,
+#dauForm1 .dauDiv b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+#dauDetailForm .dauDiv label.error,
+#dauForm .dauDiv label.error,
+#dauForm1 .dauDiv label.error {
+  color: #FF0E26;
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  font-size: 10px;
+  line-height: normal;
+}
+#dauDetailForm .dauDiv select,
+#dauForm .dauDiv select,
+#dauForm1 .dauDiv select {
+  text-indent: 5px;
+  height: 34px;
+  width: 160px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 94% center;
+  border-radius: 4px;
+}
+#dauDetailForm .dauDiv select:focus,
+#dauForm .dauDiv select:focus,
+#dauForm1 .dauDiv select:focus {
+  outline: none;
+}
+#dauDetailForm .dauDiv select[name="plantId"],
+#dauForm .dauDiv select[name="plantId"],
+#dauForm1 .dauDiv select[name="plantId"] {
+  width: 160px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  padding: 0.5em 1em!important;
+}
+#dauForm1 .dauDiv input[disabled] {
+  background: #fff;
+  border: none;
+}
+#dauForm1 .dauDiv select[disabled] {
+  background: #fff;
+  border: none;
+}
+table.addTable input.hasBorder {
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  text-indent: 2px;
+}
+table.addTable input[readonly] {
+  background: #f7f7f7;
+}
+table.disabledSelect select[disabled] {
+  background: #f8f9fb;
+  border: none;
+}
+table.disabledSelect input[disabled] {
+  background: #f8f9fb;
+}
+table.disabledSelect input[readonly] {
+  background: #f8f9fb;
+}
+table.disabledSelect input.hasBorder {
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  text-indent: 2px;
+}
+.ownerHead {
+  height: 36px;
+  margin-top: 20px;
+  border-bottom: 1px dashed #DEDEDE;
+  text-align: left;
+}
+.ownerHead span {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  border-radius: 4px;
+}
+.ownerHead span:nth-of-type(1) {
+  width: 119px;
+  background: url("/images/setting/plantManage/title.png");
+  text-indent: 5px;
+}
+.ownerHead span:nth-of-type(2) {
+  cursor: pointer;
+  float: right;
+  width: 80px;
+  text-align: center;
+  text-indent: 24px;
+  background: #01B1ED url("/images/setting/deviceManage/add_1.png") no-repeat 5% 2px;
+}
+.ownerHead span:nth-of-type(3) {
+  cursor: pointer;
+  float: right;
+  width: 80px;
+  text-align: center;
+  text-indent: 24px;
+  margin-right: 20px;
+  background: #01B1ED url("/images/setting/deviceManage/delete.png") no-repeat 5% 2px;
+}
+#dauDetailForm .dauDiv input {
+  border: 0;
+}
+table.device {
+  width: 100%;
+}
+table.device thead th {
+  border-bottom: none;
+  font-size: 1rem;
+  background-color: #30A6FA;
+  color: #fff;
+  padding: 9px 7px;
+}
+table.device tbody tr {
+  background-color: #f8f9fb;
+  text-align: left;
+}
+table.device tbody tr:hover {
+  background-color: #e4eeff !important;
+}
+table.device tbody tr:hover.selected {
+  background-color: #e4eeff;
+}
+table.device tbody tr.odd {
+  background-color: #fff;
+}
+table.device tbody tr.odd.selected {
+  background-color: #e4eeff;
+}
+table.device tbody tr td {
+  border-bottom: 1px dotted #e3e3e3;
+  border-right: 1px solid transparent;
+  color: #333;
+  padding: 9px 7px;
+}
+table.device tbody tr.selected {
+  background-color: #e4eeff;
+}
+table.device tbody .td-noWrap {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.addTable thead th {
+  color: #253646;
+  background: rgba(12, 188, 220, 0.08);
+}
+.addTable tbody input {
+  width: 90px;
+  height: 34px;
+  border: none;
+}
+.addTable tbody input:focus {
+  outline: none;
+}
+.addTable tbody select {
+  width: 100%;
+  min-width: 120px;
+  text-indent: 5px;
+  padding-right: 10px;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 94% center;
+  border-radius: 4px;
+}
+.addTable tbody select:focus {
+  outline: none;
+}
+select option.dis {
+  display: none;
+}
+@media (max-width: 1920px) {
+  .td-noWrap-dau {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .td-noWrap-dau.td-noWrap-time {
+    max-width: 80px;
+  }
+}
+@media (max-width: 1500px) {
+  .td-noWrap-dau {
+    max-width: 100px;
+  }
+}
+@media (max-width: 1366px) {
+  .td-noWrap-dau {
+    max-width: 80px;
+  }
+}

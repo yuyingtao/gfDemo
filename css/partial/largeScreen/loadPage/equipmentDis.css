@@ -1,0 +1,69 @@
+.equipmentDis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 4% 0 4% 15%;
+}
+.equipmentFlex i {
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 1.955%;
+  width: 20%;
+  text-align: center;
+  font-weight: 700;
+  margin-left: -3%;
+}
+.equipmentFlex .i1 {
+  width: 17%;
+  color: #379139;
+}
+.equipmentFlex .i2 {
+  width: 18%;
+  color: #01b4f1;
+}
+.equipmentFlex .i3 {
+  color: #f0a332;
+}
+.equipmentFlex .flexBox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.equipmentFlex .flexBox span {
+  display: inline-block;
+  border-radius: 1px ;
+  line-height: 24px;
+}
+.equipmentFlex .flexBox b {
+  padding-left: 10px;
+  font-size: 1rem;
+  line-height: 28px;
+}
+.equipmentFlex .flexBox .sp1 {
+  width: 45.1219%;
+  height: 4px;
+  background: #379139;
+}
+.equipmentFlex .flexBox .b1 {
+  color: #379139;
+}
+.equipmentFlex .flexBox .sp2 {
+  width: 30.4878%;
+  height: 4px;
+  background: #01b4f1;
+}
+.equipmentFlex .flexBox .b2 {
+  color: #01b4f1;
+}
+.equipmentFlex .flexBox .sp3 {
+  width: 13.4146%;
+  height: 4px;
+  background: #f0a332;
+}
+.equipmentFlex .flexBox .b3 {
+  color: #f0a332;
+}
+.equipmentFlex .flexBox img {
+  width: 2.7rem;
+  height: 2rem;
+}

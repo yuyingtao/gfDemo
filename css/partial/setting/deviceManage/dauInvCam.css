@@ -1,0 +1,244 @@
+.leftInfo_device {
+  width: 24.2%;
+  border-right: 1px solid #E7E7E7;
+  height: 100%;
+  overflow: auto;
+}
+.leftInfo_device .leftTab .tab {
+  width: 91.5%;
+  height: 36px;
+  margin: 0 auto;
+  background: #ECECEC;
+  border-radius: 4px;
+  text-align: center;
+  color: #989797;
+  cursor: pointer;
+}
+.leftInfo_device .leftTab .tab span {
+  display: inline-block;
+  width: 50%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  float: left;
+}
+.leftInfo_device .leftTab .tab span.activeSpan {
+  background: #01B1ED;
+  color: #fff;
+  border-radius: 4px;
+}
+.leftInfo_device .leftTab .organizationLf1 {
+  width: 91.5%;
+  height: 36px;
+  margin: 0 auto;
+  position: relative;
+}
+.leftInfo_device .leftTab .organizationLf1 input {
+  width: 80%;
+  height: 34px;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px 0 0 4px;
+  padding: 0 0 0 28px;
+  position: absolute;
+  left: 0;
+}
+.leftInfo_device .leftTab .organizationLf1 input:focus {
+  outline: none;
+}
+.leftInfo_device .leftTab .organizationLf1 a#searchOrgPlant {
+  display: inline-block;
+  width: 20%;
+  height: 34px;
+  line-height: 34px;
+  background: #01B1ED;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 1rem;
+}
+.leftInfo_device .leftTab .organizationLf1 img {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  z-index: 10;
+}
+.rightInfo_device {
+  width: 75.79%;
+  overflow: auto;
+  font-size: 1rem;
+}
+.rightInfo_device .typeDiv {
+  width: 27.1%!important;
+}
+.rightInfo_device .opeDiv a {
+  background: #01B1ED url(/images/setting/search_1.png) no-repeat 5% 2px !important;
+}
+.rightInfo_device .opeDiv a:nth-of-type(1) {
+  margin-left: 24px;
+  margin-right: 20px;
+}
+.rightInfo_device .opeDiv a:nth-of-type(2) {
+  margin-right: 20px;
+  background: #01B1ED url(/images/setting/deviceManage/delete.png) no-repeat 5% 2px !important;
+}
+.rightInfo_device .opeDiv a:nth-of-type(3) {
+  float: right;
+  background: #01B1ED url(/images/setting/deviceManage/add_1.png) no-repeat 5% 2px !important;
+}
+.ztree li ul {
+  height: auto;
+}
+.ztree li a.curSelectedNode {
+  border: none;
+  background: none;
+}
+.ztree li a.curSelectedNode .node_name {
+  border-radius: 4px;
+  padding: 4px 5px;
+  background: #01B1ED;
+}
+.ztree li span.button.root_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.root_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.ico_close {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.ico_open {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.center_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.center_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span {
+  font-size: 1.14rem;
+  line-height: 24px;
+  font-family: MicrosoftYaHei;
+}
+.ztree li span.button {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.pIcon01_ico_open {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li.level1 {
+  margin-top: 26px;
+}
+.ztree li.level2 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level3 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level4 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level5 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level6 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level7 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level8 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level9 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level10 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li span.button.pIcon01_ico_close {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon01_ico_docu {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li a:hover {
+  text-decoration: none;
+}
+.ztree li a.curSelectedNode .node_name {
+  color: #fff;
+}
+.ztree li span.button.icon03 {
+  margin-left: 0px;
+  background: url("/images/setting/addOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon04 {
+  margin-left: 0px;
+  background: url("/images/setting/delOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}

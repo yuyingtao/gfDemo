@@ -1,0 +1,133 @@
+/**
+ * 2018/8/14
+ * @author hh.todd@qq.com
+ * @description  电能质量
+ * @param:
+ */
+.eePage .elecQualityBox {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  color: #fff;
+}
+.eePage .elecQualityBox h2 {
+  font-size: 1.14285rem;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.eePage .elecQualityBox h2 img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.eePage .elecQualityBox .kpiMain {
+  display: flex;
+  justify-content: center;
+}
+.eePage .elecQualityBox .ypbTip {
+  overflow: hidden;
+  width: 200px;
+  height: 120px;
+  color: #87A6FF;
+  border: 1px solid #001449;
+  background: rgba(0, 20, 73, 0.8);
+  box-shadow: inset 0 0 10px #056CB9;
+}
+.eePage .elecQualityBox .ypbTipContent {
+  width: 100%;
+  padding: 20px;
+}
+.eePage .elecQualityBox .kpiContent {
+  position: relative;
+  width: 60%;
+  height: 250px;
+  text-align: center;
+}
+.eePage .elecQualityBox .kpiInfo {
+  position: relative;
+  width: 40%;
+}
+.eePage .elecQualityBox .kpiInfo p {
+  width: 234px;
+  height: 40px;
+  line-height: 40px;
+  background-color: rgba(0, 0, 0, 0.33);
+  margin-top: 10px;
+  font-size: 1.2857rem;
+  padding: 0 10px;
+}
+.eePage .elecQualityBox .kpiInfo p img {
+  margin-right: 5px;
+}
+.eePage .elecQualityBox .kpiInfo label {
+  font-weight: 500;
+}
+.eePage .elecQualityBox .kpiInfo .clr1 {
+  color: #FF9E39;
+}
+.eePage .elecQualityBox .kpiInfo .clr2 {
+  color: #06A145;
+}
+.eePage .elecQualityBox .kpiInfo .clr3 {
+  color: #FE7E3E;
+}
+/*
+* @description: 响应式，以下为响应式样式设置
+* 需导入默认参数文件@import '../../media.less'
+* 设置宽高度，字体
+* 默认字体为@basicFontSize:14px
+**/
+@media (max-width: 1500px) {
+  .eePage .elecQualityBox .kpiContent {
+    width: 50%;
+    margin-top: 24px;
+  }
+  .eePage .elecQualityBox .kpiInfo {
+    margin-left: -20px;
+  }
+  .eePage .elecQualityBox .kpiInfo p {
+    width: 220px;
+  }
+  .eePage .elecQualityBox .ypbTip {
+    left: -10px;
+  }
+}
+@media (max-width: 1366px) {
+  .eePage .elecQualityBox .kpiContent {
+    margin-left: -25px;
+  }
+  .eePage .elecQualityBox .kpiInfo {
+    margin-left: -25px;
+  }
+  .eePage .elecQualityBox .kpiInfo p {
+    width: 210px;
+    padding: 0 3px;
+    height: 36px;
+    line-height: 36px;
+  }
+  .eePage .elecQualityBox .kpiInfo p img {
+    width: 24px;
+    height: 24px;
+  }
+  .eePage .elecQualityBox .ypbTip {
+    left: -5px;
+  }
+}
+@media (max-width: 1024px) {
+  .eePage .elecQualityBox .kpiContent {
+    margin-left: -45px;
+  }
+  .eePage .elecQualityBox .kpiInfo {
+    margin-left: -5px;
+    margin-top: 12px;
+  }
+  .eePage .elecQualityBox .kpiInfo p {
+    width: 200px;
+  }
+  .eePage .elecQualityBox .kpiInfo p img {
+    width: 22px;
+    height: 22px;
+  }
+  .eePage .elecQualityBox .ypbTip {
+    left: -5px;
+  }
+}

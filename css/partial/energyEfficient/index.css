@@ -1,0 +1,579 @@
+/**
+ * 2018/8/14
+ * @author hh.todd@qq.com
+ * @description  能效系统
+ * @param:
+*/
+body {
+  font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 14px;
+  display: block!important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body > div {
+  margin-right: auto;
+  margin-left: auto;
+}
+div,
+form,
+ul,
+ol,
+li,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img,
+a img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+table,
+td,
+input {
+  font-size: 1em;
+}
+a {
+  outline-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+.clearfix:after {
+  centent: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+::-ms-clear,
+::-ms-reveal {
+  display: none;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #ccc;
+}
+select::-ms-expand {
+  display: none;
+}
+select {
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 98% center;
+  padding: 0px 22px 0 6px;
+  border-radius: 4px;
+}
+select:focus {
+  outline: none;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #ccc;
+}
+input,
+button {
+  outline: none;
+}
+input:-ms-input-placeholder {
+  color: #ccc;
+}
+input::-webkit-input-placeholder {
+  color: #ccc;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+html,
+body {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.bw {
+  background-color: #fff;
+}
+b,
+i {
+  font-weight: normal;
+  font-style: normal;
+}
+.blocks {
+  width: 100%;
+  height: 15px;
+}
+input.Wdate {
+  width: 170px;
+  height: 30px;
+  line-height: 31px;
+  border: none;
+  border-radius: 13px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  padding: 0 9px;
+  cursor: pointer;
+  background: transparent url(/images/pmImages/calendar.png) no-repeat 95% 6px;
+}
+.modal-dialog {
+  margin: 0 auto;
+  position: absolute;
+}
+.modal .cus-img-btn {
+  padding: 4px 13px;
+}
+.modal-open .modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+fieldset {
+  display: block;
+  -webkit-margin-start: 2px;
+  -webkit-margin-end: 2px;
+  -webkit-padding-before: 0.35em;
+  -webkit-padding-start: 0.75em;
+  -webkit-padding-end: 0.75em;
+  -webkit-padding-after: 0.625em;
+  min-width: -webkit-min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+legend {
+  display: block;
+  width: auto;
+  -webkit-padding-start: 2px;
+  -webkit-padding-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.mCSB_container_wrapper {
+  margin-right: 15px;
+}
+.mCSB_container {
+  margin-right: 0;
+}
+.mCSB_container_wrapper > .mCSB_container {
+  padding-right: 0;
+}
+.modal-header {
+  background: url(/images/bg_3.png) #01b1ed no-repeat center;
+  color: #fff;
+  font-size: 1.14285em;
+  padding: 12px;
+  text-align: left;
+}
+.modal-header .close {
+  margin-top: -2px;
+  color: #fff;
+  opacity: .9;
+}
+.modal-header .close:hover {
+  opacity: 1;
+}
+.modal .cus-img-btn {
+  background-color: #01b1ed;
+  color: #fff;
+  font-size: 1.14285em;
+  padding: 4px 17px;
+}
+.modal-footer {
+  padding: 8px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f7f7f7;
+}
+.modal-content {
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  border: none;
+}
+.imgBtn {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.imgBtn:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/repImages/search2.png) no-repeat center;
+  overflow: hidden;
+}
+.imgBtn:focus {
+  outline: none;
+}
+.imgBtn:hover {
+  color: #fff;
+  opacity: .9;
+}
+.cancel {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.cancel:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/cancel.png) no-repeat center;
+  overflow: hidden;
+}
+.cancel:hover {
+  color: #fff;
+  opacity: .9;
+}
+.save {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.save:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/save.png) no-repeat center;
+  overflow: hidden;
+}
+.save:hover {
+  color: #fff;
+  opacity: .9;
+}
+.delete {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.delete:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/delete.png) no-repeat center;
+  overflow: hidden;
+}
+.delete:hover {
+  color: #fff;
+  opacity: .9;
+}
+.add {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.add:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/add_1.png) no-repeat center;
+  overflow: hidden;
+}
+.add:hover {
+  color: #fff;
+  opacity: .9;
+}
+.edit {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  line-height: 34px;
+  padding-left: 40px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+.edit:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  width: 30px;
+  left: 5px;
+  top: 2px;
+  height: 30px;
+  background: url(/images/setting/save.png) no-repeat center;
+  overflow: hidden;
+}
+.edit:hover {
+  color: #fff;
+  opacity: .9;
+}
+.imgNoBtn {
+  position: relative;
+  display: inline-block;
+  min-width: 50px;
+  background: #01B1ED;
+  height: 34px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+}
+.imgNoBtn:hover {
+  color: #fff;
+  opacity: .9;
+}
+.sp-body {
+  overflow: auto;
+}
+.mCS-3d.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #010e38;
+}
+.eePage {
+  padding-bottom: 15px;
+}
+.eePage .topBar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 128px;
+  padding: 20px;
+  background: #001555 url("/images/energyEfficient/activeMonitor/top_bg.png") no-repeat;
+  background-position-x: 77%;
+  font-size: 1.14285rem;
+}
+.eePage .navBar {
+  display: flex;
+  justify-content: space-between;
+}
+.eePage .navBar .logoImg {
+  margin-left: 7px;
+  width: 110px;
+  height: 40px;
+}
+.eePage .navBar .logoImg img {
+  width: 100%;
+  height: 100%;
+}
+.eePage .navBar .navigationBar {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 40px;
+}
+.eePage .navBar .navigationBar ul {
+  display: flex;
+  align-items: center;
+}
+.eePage .navBar .navigationBar ul a {
+  display: inline-block;
+  width: 100px;
+  height: 38px;
+  line-height: 38px;
+  background: url("/images/energyEfficient/activeMonitor/top_2.png") no-repeat center;
+  text-align: center;
+  margin-right: 23px;
+  color: #B1B1B1;
+}
+.eePage .navBar .navigationBar ul a.on {
+  background: url("/images/energyEfficient/activeMonitor/top_1.png") no-repeat center;
+  color: #F48E20;
+}
+.eePage .navBar .basicSetBar {
+  color: #fff;
+  font-size: 1.214285rem;
+  padding-right: 5px;
+}
+.eePage .navBar .basicSetBar span {
+  margin-left: 35px;
+  cursor: pointer;
+}
+.eePage .navBar .basicSetBar span:before {
+  display: inline-block;
+  content: '';
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.eePage .navBar .basicSetBar .loginUser:before {
+  background: url("/images/energyEfficient/activeMonitor/personal-center.png") no-repeat;
+}
+.eePage .navBar .basicSetBar .setting:before {
+  background: url("/images/energyEfficient/activeMonitor/set-1.png") no-repeat;
+}
+.eePage .navBar .basicSetBar .exit:before {
+  width: 0;
+  height: 0;
+}
+.eePage .subBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #6394FF;
+}
+.eePage .subBar .sysName {
+  margin-left: 7px;
+  font-size: 1.42857rem;
+  font-weight: 700;
+}
+.eePage .subBar .enterpriseName {
+  margin-right: 7px;
+  padding: 0 7px;
+  background-color: #011B67;
+  margin-bottom: -7px;
+}
+.eePage .timeSearchBtn {
+  width: 28px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 11px;
+  background-color: #021D68;
+  border: 1px solid #3361C4;
+  vertical-align: middle;
+}
+.eePage .timeSearchBtn:before {
+  display: inline-block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  background: url("/images/energyEfficient/activeMonitor/search.png") no-repeat center;
+}
+.eePage input.EleWdate {
+  width: 100px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #3361C4;
+  border-radius: 11px;
+  padding: 0 9px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: #021D68 url(/images/energyEfficient/activeMonitor/day.png) no-repeat 93% 1px;
+}
+@media (max-width: 1920px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  .sp-body {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1500px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+  .sp-body {
+    font-size: 0.92857em;
+  }
+}
+@media (max-width: 1366px) {
+  html,
+  body {
+    font-size: 12px;
+  }
+  .sp-body {
+    font-size: 0.85714em;
+  }
+}
+@media (max-width: 1024px) {
+  .container-fluid {
+    padding: 0;
+  }
+  .sp-body {
+    width: 1024px;
+    font-size: 0.7em;
+  }
+}

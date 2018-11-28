@@ -1,0 +1,200 @@
+.inverterDeviceTable {
+  font-size: 1rem;
+  width: 97.6%;
+}
+.inverterDeviceTable tbody tr td {
+  color: #666!important;
+}
+.inverterDetail input[readonly] {
+  background: #f7f7f7;
+}
+.inverterDetail .headChange {
+  height: 40px;
+  border-bottom: 1px solid #0abddd;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.inverterDetail .headChange span {
+  background: #f4f4f4;
+  display: inline-block;
+  color: #333;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  width: 100px;
+  margin-right: 20px;
+  border-bottom: 1px solid #0abddd;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+.inverterDetail .headChange span.chooseSpan {
+  background: #0abddd;
+  color: #fff;
+}
+.inverterDetail .devInfo .jgLine {
+  border-bottom: 1px dashed #DEDEDE;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.inverterDetail .devInfo .jgLine span {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  width: 119px;
+  background: url("/images/setting/plantManage/title.png");
+  text-indent: 5px;
+}
+.inverterDetail .devForm .formItem {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  height: 36px;
+  line-height: 36px;
+  color: #333;
+  float: left;
+}
+.inverterDetail .devForm .formItem input {
+  text-indent: 5px;
+  width: 300px;
+  border: 1px solid #DEDEDE;
+  height: 34px;
+  border-radius: 4px;
+}
+.inverterDetail .devForm .formItem input:focus {
+  outline: none;
+}
+.inverterDetail .devForm .formItem input[disabled] {
+  background: #fff;
+  border: none;
+}
+.inverterDetail .devForm .formItem label {
+  font-weight: normal;
+}
+.inverterDetail p {
+  text-align: left;
+  color: #FA9430;
+  margin-bottom: 10px;
+}
+.inverterDetail p img {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.inverterDetail table thead th {
+  border-bottom: none;
+  font-size: 1rem;
+  background-color: #30A6FA;
+  color: #fff;
+  padding: 9px 7px;
+}
+.inverterDetail table tbody tr {
+  background-color: #f8f9fb;
+  text-align: left;
+}
+.inverterDetail table tbody tr:hover {
+  background-color: #e4eeff !important;
+}
+.inverterDetail table tbody tr:hover.selected {
+  background-color: #e4eeff;
+}
+.inverterDetail table tbody tr.odd {
+  background-color: #fff;
+}
+.inverterDetail table tbody tr.odd.selected {
+  background-color: #e4eeff;
+}
+.inverterDetail table tbody tr td {
+  border-bottom: 1px dotted #e3e3e3;
+  border-right: 1px solid transparent;
+  color: #333;
+  padding: 9px 7px;
+}
+.inverterDetail table tbody tr td input {
+  border: none;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+.inverterDetail table tbody tr.selected {
+  background-color: #e4eeff;
+}
+.inverterDetail table tbody .td-noWrap {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.zcTep .searchDiv {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  text-align: left;
+}
+.zcTep .searchDiv input {
+  width: 50%;
+  border: 1px solid #DEDEDE;
+  height: 34px;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-indent: 5px;
+}
+.zcTep .searchDiv input span {
+  font-size: 1rem;
+}
+.zcTep .searchDiv input:focus {
+  outline: none;
+}
+.zcTep .sureSearch {
+  height: 36px;
+}
+.zcTep .sureSearch a {
+  width: 80px;
+  float: left;
+  font-size: 1rem;
+  height: 34px;
+  line-height: 34px;
+  display: inline-block;
+  text-indent: 20px;
+  border-radius: 4px;
+  color: #fff;
+  background: #01B1ED url(/images/setting/search_1.png) no-repeat 5% 2px;
+}
+.zcTep ul.resUl {
+  width: 100%;
+  text-align: left;
+}
+.zcTep ul.resUl li {
+  display: inline-block;
+  width: 20%;
+  margin: 10px 0;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float: none;
+  text-align: center;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  padding: 0.5em 1em!important;
+}
+@media (max-width: 1920px) {
+  .td-noWrap-interver {
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .td-noWrap-interver.td-noWrap-time {
+    max-width: 80px;
+  }
+}
+@media (max-width: 1500px) {
+  .td-noWrap-interver {
+    max-width: 80px;
+  }
+}
+@media (max-width: 1366px) {
+  .td-noWrap-interver {
+    max-width: 70px;
+  }
+}

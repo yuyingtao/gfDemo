@@ -1,0 +1,283 @@
+.cameraTable {
+  font-size: 1rem;
+  width: 97.6%;
+  min-width: 800px;
+}
+.cameraTable tbody tr td {
+  color: #666!important;
+  position: relative;
+}
+.cameraTable tbody tr td .zoomIcon {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  height: 18px;
+  width: 18px;
+  background: rgba(0, 0, 0, 0.4);
+  left: 30px;
+  top: 20px;
+}
+.cameraTable tbody tr td .imgs:hover .zoomIcon {
+  display: block;
+}
+.cameraTable tbody tr td .bigImg {
+  background: #fff;
+  display: none;
+  position: absolute;
+  left: -50px;
+  top: -130px;
+  z-index: 200;
+  width: 220px;
+  height: 140px;
+}
+.cameraTable tbody tr td .bigImg img {
+  margin: 11px 22px;
+  width: 176px;
+  height: 118px;
+}
+.cameraTable tbody tr td .bigImg a {
+  color: #01B1ED;
+  font-size: 1.14rem;
+  position: absolute;
+  right: 5px;
+}
+form#cameraTep,
+form#newCameraTep {
+  font-size: 1rem;
+}
+form#cameraTep div.leftInfo,
+form#newCameraTep div.leftInfo {
+  width: 440px;
+  border-right: 1px solid #E1E1E1;
+}
+form#cameraTep div.leftInfo input,
+form#newCameraTep div.leftInfo input {
+  margin-right: 30px;
+}
+form#cameraTep div.leftInfo i,
+form#newCameraTep div.leftInfo i {
+  margin-right: 30px;
+}
+form#cameraTep div.leftInfo select,
+form#newCameraTep div.leftInfo select {
+  margin-right: 30px;
+}
+form#cameraTep .uploadImgBox,
+form#newCameraTep .uploadImgBox {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 194px;
+  height: 110px;
+  text-align: center;
+  line-height: 110px;
+  background: #EBEBEB;
+  border: 1px solid  #E7E7E7;
+  border-radius: 4px;
+  margin-right: 12px;
+  left: -110px;
+}
+form#cameraTep .uploadImgBox img,
+form#newCameraTep .uploadImgBox img {
+  width: 100%;
+  height: 100%;
+}
+form#cameraTep .uploadImgBox input[type="file"],
+form#newCameraTep .uploadImgBox input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form#cameraTep .uploadImgBox .uploadA,
+form#newCameraTep .uploadImgBox .uploadA {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form#cameraTep .uploadImgBox .uploadA img,
+form#newCameraTep .uploadImgBox .uploadA img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form#cameraTep .uploadImgBox .uploadA input[type="file"],
+form#newCameraTep .uploadImgBox .uploadA input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  z-index: 20;
+  filter: alpha(opacity=0);
+  outline: 1px solid red;
+}
+form#cameraTep div.rightInfo,
+form#newCameraTep div.rightInfo {
+  width: 400px;
+}
+form#cameraTep div.item-group,
+form#newCameraTep div.item-group {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: right;
+}
+form#cameraTep div.item-group b,
+form#newCameraTep div.item-group b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+form#cameraTep div.item-group label,
+form#newCameraTep div.item-group label {
+  color: #333;
+  font-weight: normal;
+}
+form#cameraTep div.item-group label.error,
+form#newCameraTep div.item-group label.error {
+  margin-top: 10px;
+  color: #FF0E26;
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+}
+form#cameraTep div.item-group input,
+form#newCameraTep div.item-group input {
+  width: 280px;
+  height: 34px;
+  text-indent: 5px;
+  color: #666;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  border-radius: 4px;
+}
+form#cameraTep div.item-group select,
+form#newCameraTep div.item-group select {
+  width: 280px;
+  height: 34px;
+}
+form#cameraTep div.item-group input.input1,
+form#newCameraTep div.item-group input.input1 {
+  width: 244px;
+  margin: 0;
+}
+form#cameraTep div.item-group i,
+form#newCameraTep div.item-group i {
+  display: inline-block;
+  width: 36px;
+  text-align: left;
+}
+form#cameraTep div.item-group i.imgStatus,
+form#newCameraTep div.item-group i.imgStatus {
+  display: inline-block;
+  width: 280px;
+}
+form#cameraTep div.item-group input:focus,
+form#newCameraTep div.item-group input:focus {
+  outline: none;
+}
+form#cameraTep div.item-group input.sysTel,
+form#newCameraTep div.item-group input.sysTel {
+  width: 175px;
+}
+form#cameraTep div.item-group input.plantArea,
+form#newCameraTep div.item-group input.plantArea {
+  width: 266px;
+}
+form#cameraTep div.item-group span.sysSpan,
+form#newCameraTep div.item-group span.sysSpan {
+  display: inline-block;
+  width: 105px;
+}
+form#cameraTep div.item-group span.sysSpan label,
+form#newCameraTep div.item-group span.sysSpan label {
+  vertical-align: middle;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("/images/repImages/rect1.png") no-repeat center;
+  margin-right: 4px;
+}
+form#cameraTep div.item-group textarea,
+form#newCameraTep div.item-group textarea {
+  width: 280px;
+  border: 1px solid #EBEBEB;
+  text-indent: 5px;
+  height: 144px;
+  line-height: 36px;
+  border-radius: 4px;
+}
+form#cameraTep div.item-group textarea:focus,
+form#newCameraTep div.item-group textarea:focus {
+  outline: none;
+}
+form#cameraTep div.item-group select,
+form#newCameraTep div.item-group select {
+  width: 280px;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 98% center;
+  text-indent: 5px;
+  border-radius: 4px;
+}
+form#cameraTep div.item-group select option,
+form#newCameraTep div.item-group select option {
+  padding: 10px 0;
+}
+form#cameraTep div.item-group select:focus,
+form#newCameraTep div.item-group select:focus {
+  outline: none;
+}
+form#cameraTep div.userPic div.picNotice,
+form#newCameraTep div.userPic div.picNotice {
+  width: 280px;
+  height: 120px;
+}
+form#cameraTep div.userPic span,
+form#newCameraTep div.userPic span {
+  color: #FF0E26;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float: none;
+  text-align: center;
+}
+@media (max-width: 1920px) {
+  .td-noWrap-camera {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .td-noWrap-camera.td-noWrap-time {
+    max-width: 80px;
+  }
+}
+@media (max-width: 1500px) {
+  .td-noWrap-camera {
+    max-width: 100px;
+  }
+}
+@media (max-width: 1366px) {
+  .td-noWrap-camera {
+    max-width: 80px;
+  }
+}

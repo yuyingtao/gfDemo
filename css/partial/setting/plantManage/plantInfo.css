@@ -1,0 +1,1035 @@
+.plantInfo {
+  height: 100%;
+  background: #fff;
+}
+.plantInfo .leftInfo {
+  width: 19.8%;
+  height: 100%;
+  border-right: 1px solid #E7E7E7;
+  overflow: auto;
+}
+.plantInfo .leftInfo .leftTab {
+  margin-top: 22px;
+}
+.plantInfo .leftInfo .leftTab .tab {
+  width: 91.5%;
+  height: 36px;
+  margin: 0 auto;
+  background: #ECECEC;
+  border-radius: 4px;
+  text-align: center;
+  color: #989797;
+  cursor: pointer;
+}
+.plantInfo .leftInfo .leftTab .tab span {
+  display: inline-block;
+  width: 50%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1rem;
+  float: left;
+}
+.plantInfo .leftInfo .leftTab .tab span.activeSpan {
+  background: #01B1ED;
+  color: #fff;
+  border-radius: 4px;
+}
+.plantInfo .leftInfo .leftTab .organizationLf1 {
+  width: 91.5%;
+  height: 36px;
+  margin: 10px auto 0 auto;
+  position: relative;
+}
+.plantInfo .leftInfo .leftTab .organizationLf1 input {
+  width: 80%;
+  height: 34px;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px 0 0 4px;
+  padding: 0 0 0 28px;
+  position: absolute;
+  left: 0;
+}
+.plantInfo .leftInfo .leftTab .organizationLf1 input:focus {
+  outline: none;
+}
+.plantInfo .leftInfo .leftTab .organizationLf1 a#searchOrgPlant {
+  display: inline-block;
+  width: 20%;
+  height: 34px;
+  line-height: 34px;
+  background: #01B1ED;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 1rem;
+}
+.plantInfo .leftInfo .leftTab .organizationLf1 img {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  z-index: 10;
+}
+.plantInfo .rightInfo {
+  width: 80%;
+  height: 100%;
+}
+.plantInfo .rightInfo .infoContent {
+  width: 97.5%;
+  height: 100%;
+  margin: 22px auto ;
+  text-align: left;
+  font-size: 1rem;
+}
+.plantInfo .rightInfo .infoContent .ownerHead {
+  height: 36px;
+  border-bottom: 1px dashed #DEDEDE;
+}
+.plantInfo .rightInfo .infoContent .ownerHead span {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  border-radius: 4px;
+}
+.plantInfo .rightInfo .infoContent .ownerHead span:nth-of-type(1) {
+  width: 119px;
+  background: url("/images/setting/plantManage/title.png");
+  text-indent: 5px;
+}
+.plantInfo .rightInfo .infoContent .ownerHead span:nth-of-type(2) {
+  cursor: pointer;
+  float: right;
+  width: 80px;
+  text-align: center;
+  text-indent: 24px;
+  background: #01B1ED url("/images/setting/plantManage/add.png") no-repeat 5% 6px;
+}
+.plantInfo .rightInfo .infoContent .ownerHead span#modifyPlant-plantManage {
+  background: #01B1ED url("/images/setting/plantManage/edit.png") no-repeat 5% 6px;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent {
+  width: 100%;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 1rem;
+  border-left: 1px solid #E7E7E7;
+  border-right: 1px solid #E7E7E7;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tr {
+  height: 40px!important;
+  line-height: 40px;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable thead tr {
+  background: #01b1ed;
+  color: #fff;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr:nth-child(even) {
+  background: #f8f9fb;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px dashed #e7e7e7;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr td {
+  padding: 0;
+  margin: 0;
+  line-height: 40px;
+  color: #666;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr td a {
+  /* display: inline-block; */
+  /* height: 26px; */
+  /* line-height: 26px; */
+  text-align: center;
+  /* border-radius: 4px; */
+  color: #fff;
+  vertical-align: middle;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr td a.modifyOwner {
+  background: rgba(48, 166, 250, 0.5);
+  margin-right: 13px;
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr td a.deleteOwner {
+  background: rgba(255, 14, 38, 0.5);
+}
+.plantInfo .rightInfo .infoContent .ownerInfo .ownerContent #ownerTable tbody tr td a.modifyPwd {
+  background: rgba(255, 49, 15, 0.5);
+  margin-right: 13px;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent .ptImg {
+  width: 30%;
+  height: 206px ;
+  margin-top: 30px;
+  margin-right: 3.3%;
+  overflow: hidden;
+  float: left;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent .ptImg img {
+  width: 100%;
+  display: inline-block;
+  height: 100%;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent .ptImg:nth-of-type(3n) {
+  margin-right: 0;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent .ptImg:nth-of-type(3n-2) {
+  margin-left: 15px;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td {
+  font-size: 1rem;
+  line-height: 40px;
+  color: #666;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td b {
+  margin-right: 15px;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td b label {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url("/images/setting/plantManage/rect.png") no-repeat center;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td b label.choose {
+  background: url("/images/setting/plantManage/rect1.png") no-repeat center;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td a#lookPrice {
+  display: inline-block;
+  background: #01B1ED ;
+  height: 34px;
+  padding: 0 10px;
+  line-height: 34px;
+  border-radius: 4px;
+  color: #fff;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td i {
+  display: inline-block;
+  width: 20px;
+  height: 24px;
+  vertical-align: middle;
+  background: url("/images/setting/plantManage/map_1.png") no-repeat center;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td:nth-of-type(1) {
+  display: inline-block;
+  margin-left: 15px;
+  width: 45%;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr td:nth-of-type(2) {
+  display: inline-block;
+  width: 35%;
+}
+.plantInfo .rightInfo .infoContent .ptInfo .ptContent #plantInformation tr:last-child td {
+  width: 100%;
+}
+.plantInfo .rightInfo .addPlant {
+  width: 97.5%;
+  height: 100%;
+  margin: 22px auto ;
+  text-align: left;
+  font-size: 1rem;
+}
+.plantInfo .rightInfo .addPlant .ownerHead {
+  height: 36px;
+  border-bottom: 1px dashed #DEDEDE;
+}
+.plantInfo .rightInfo .addPlant .ownerHead span {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  border-radius: 4px;
+}
+.plantInfo .rightInfo .addPlant .ownerHead span:nth-of-type(1) {
+  width: 119px;
+  background: url("/images/setting/plantManage/title.png");
+  text-indent: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo #npInfo {
+  margin-top: 20px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.orgDiv:before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  right: 20%;
+  top: 6px;
+  width: 22px;
+  height: 22px;
+  background: url("/images/setting/search1.png") no-repeat 98% center;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem {
+  display: inline-block;
+  width: 49%;
+  float: left;
+  color: #333;
+  margin-bottom: 10px;
+  position: relative;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem a {
+  display: inline-block;
+  color: #fff;
+  width: 17.66%;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 4px;
+  text-indent: 30px;
+  background: #01B1ED url("/images/setting/plantManage/map.png") no-repeat 2% center;
+  position: absolute;
+  top: 0;
+  right: 92px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem a.seePrice {
+  width: 17%;
+  text-indent: 0;
+  background: #01B1ED;
+  text-align: center;
+  margin-left: 2%;
+  right: 90px;
+  top: 0;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input {
+  width: 67.25%;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  text-indent: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input:focus {
+  outline: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[disabled] {
+  background: #fff;
+  border: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[readonly] {
+  border: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem label.error {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem i {
+  position: absolute;
+  right: 90px;
+  top: 0;
+  height: 34px;
+  line-height: 34px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem select::-ms-expand {
+  display: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem select {
+  width: 33.5%;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 98% center;
+  text-indent: 5px;
+  border-radius: 4px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem select:focus {
+  outline: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[name="capacity"] {
+  width: 52.65%;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[name="plantAddr"] {
+  width: 48.4%;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[name="plantArea"] {
+  width: 63.6%;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem input[name="plantPrice"] {
+  width: 58.3%;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem select[name="capUnit"] {
+  width: 13.42%;
+  position: absolute;
+  right: 90px;
+  top: 0;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem select[name="plantPrice"] {
+  width: 48%;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -4px;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantItem label {
+  font-weight: normal;
+  margin-right: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  height: 190px;
+  text-align: center;
+  line-height: 185px;
+  background: #EBEBEB;
+  border: 1px solid  #E7E7E7;
+  border-radius: 4px;
+  margin-right: 1%;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox img {
+  width: 100%;
+  height: 100%;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox .uploadA {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox .uploadA img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantImgs .uploadImgBox .uploadA input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  z-index: 20;
+  filter: alpha(opacity=0);
+  outline: 1px solid red;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantMsg {
+  width: 100%;
+  position: relative;
+  margin-top: 10px;
+  height: 130px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantMsg label {
+  position: absolute;
+  top: 0;
+  font-weight: normal;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantMsg textarea {
+  width: 92%;
+  position: absolute;
+  left: 70px;
+  border: 1px solid #EBEBEB;
+  resize: none;
+  text-indent: 5px;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantMsg textarea:focus {
+  outline: none;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantBtn {
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantBtn a {
+  width: 80px;
+  height: 34px;
+  display: inline-block;
+  border-radius: 4px;
+  line-height: 34px;
+  text-indent: 20px;
+  color: #fff;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantBtn a:nth-of-type(1) {
+  background: #01B1ED url("/images/setting/save.png") no-repeat 2% center;
+}
+.plantInfo .rightInfo .addPlant .newPlantInfo div.plantBtn a:nth-of-type(2) {
+  background: #01B1ED url("/images/setting/cancel.png") no-repeat 2% center;
+}
+#ownerPhoneNumFrom label.error {
+  display: inline;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  color: red;
+}
+form {
+  font-size: 1rem;
+}
+form div.leftInfo {
+  width: 445px;
+  border-right: 1px solid #E1E1E1;
+}
+form div.rightInfo {
+  width: 400px;
+}
+form div.item-group-plant {
+  position: relative;
+  margin-bottom: 10px;
+}
+form div.item-group-plant b {
+  font-size: 16px;
+  color: #FF0E26;
+  vertical-align: -5px;
+  margin-right: 5px;
+}
+form div.item-group-plant label {
+  color: #333;
+  font-weight: normal;
+}
+form div.item-group-plant label.error {
+  margin-top: 10px;
+  color: #FF0E26;
+  width: 100%;
+  display: inline-block;
+  font-weight: normal;
+}
+form div.item-group-plant input {
+  width: 280px;
+  height: 34px;
+  text-indent: 5px;
+  color: #666;
+  border: 1px solid #EBEBEB;
+  outline: none;
+  border-radius: 4px;
+}
+form div.item-group-plant input[readonly] {
+  border: none;
+}
+form div.item-group-plant i {
+  display: inline-block;
+  width: 280px;
+  text-align: left;
+}
+form div.item-group-plant i .uploadImgBox {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 120px;
+  height: 124px;
+  text-align: center;
+  line-height: 120px;
+  background: #EBEBEB;
+  border: 1px solid  #E7E7E7;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+form div.item-group-plant i .uploadImgBox img {
+  width: 100%;
+  height: 100%;
+}
+form div.item-group-plant i .uploadImgBox input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form div.item-group-plant i .uploadImgBox .uploadA {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form div.item-group-plant i .uploadImgBox .uploadA img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+form div.item-group-plant i .uploadImgBox .uploadA input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1rem;
+  background-color: #fff;
+  transform: translate(-300px, 0px) scale(4);
+  height: 40px;
+  opacity: 0;
+  z-index: 20;
+  filter: alpha(opacity=0);
+  outline: 1px solid red;
+}
+form div.item-group-plant input:focus {
+  outline: none;
+}
+form div.item-group-plant input.sysTel {
+  width: 175px;
+}
+form div.item-group-plant input.plantArea {
+  width: 266px;
+}
+form div.item-group-plant span.sysSpan {
+  display: inline-block;
+  width: 105px;
+}
+form div.item-group-plant span.sysSpan label {
+  vertical-align: middle;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("/images/repImages/rect.png") no-repeat center;
+  margin-right: 4px;
+}
+form div.item-group-plant span.sysSpan label.onReact {
+  background: url("/images/repImages/rect1.png") no-repeat center;
+}
+form div.item-group-plant span.sysSpan label.notReact {
+  background: url("/images/repImages/rect.png") no-repeat center;
+}
+form div.item-group-plant textarea {
+  width: 280px;
+  border: 1px solid #EBEBEB;
+  text-indent: 5px;
+  height: 144px;
+  line-height: 36px;
+  border-radius: 4px;
+}
+form div.item-group-plant textarea:focus {
+  outline: none;
+}
+form div.item-group-plant .select1 {
+  width: 140px;
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("/images/setting/plantManage/dropdown.png") no-repeat 98% center;
+  text-indent: 5px;
+  border-radius: 4px;
+}
+form div.item-group-plant .select1 option {
+  padding: 10px 0;
+}
+form div.item-group-plant select:focus {
+  outline: none;
+}
+form div.userPic div.picNotice {
+  width: 280px;
+  height: 120px;
+}
+form div.userPic span {
+  color: #FF0E26;
+}
+form#plantInfoOfPlant input.capacity {
+  width: 200px;
+  margin-right: 4px;
+}
+form#plantInfoOfPlant select.capSelect {
+  vertical-align: middle;
+  width: 76px;
+  height: 34px;
+}
+form#plantInfoOfPlant i label {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  background: url("/images/setting/plantManage/rect.png") no-repeat center;
+}
+form#plantInfoOfPlant i label.onLabel {
+  background: url("/images/setting/plantManage/rect1.png") no-repeat center;
+}
+form#plantInfoOfPlant i.inPrice {
+  width: 45px;
+}
+form#plantInfoOfPlant i.qyi {
+  width: 80px;
+}
+form#plantInfoOfPlant i.bi {
+  width: 200px;
+}
+form#plantInfoOfPlant i.timeLine {
+  height: 16px;
+  width: 1px;
+  background: #01B1ED;
+  position: absolute;
+  right: 15%;
+  top: 11px;
+}
+form#plantInfoOfPlant input.addrInput {
+  width: 174px;
+  margin-right: 6px;
+}
+form#plantInfoOfPlant input.time {
+  background: url("/images/repImages/calendar.png") no-repeat 98% 2px;
+}
+form#plantInfoOfPlant a {
+  display: inline-block;
+  color: #fff;
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 4px;
+  text-indent: 15px;
+  margin-top: -5px;
+  background: #01B1ED url("/images/setting/plantManage/map.png") no-repeat 2% center;
+}
+form#plantInfoOfPlant select[name='plantPrice'] {
+  width: 175px;
+  height: 34px;
+  margin-right: 5px;
+}
+form#plantInfoOfPlant a.priceSee {
+  background: #01B1ED;
+  text-indent: 0;
+}
+#cancelOwner {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/cancel.png") no-repeat 5% 2px;
+}
+#saveOwner {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/save.png") no-repeat 5% 2px;
+}
+#cancelLocation {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/cancel.png") no-repeat 5% 2px;
+}
+#saveLocation {
+  width: 80px;
+  text-indent: 20px;
+  background: #01B1ED url("/images/repImages/save.png") no-repeat 5% 2px;
+}
+#locationMap #locInfo,
+#locationMap1 #locInfo {
+  height: 140px;
+  text-align: left;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+#locationMap #locInfo p,
+#locationMap1 #locInfo p {
+  line-height: 44px;
+  background: #01B1ED;
+  color: #fff;
+}
+#locationMap #locInfo p i,
+#locationMap1 #locInfo p i {
+  margin: 0 10px;
+}
+#locationMap #locInfo p input,
+#locationMap1 #locInfo p input {
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  text-indent: 5px;
+  width: 260px;
+  background: #01B1ED;
+}
+#locationMap #locInfo p input:focus,
+#locationMap1 #locInfo p input:focus {
+  outline: none;
+}
+#locationMap #locInfo p input[readonly],
+#locationMap1 #locInfo p input[readonly] {
+  border: none;
+}
+#locationMap #locInfo input:nth-of-type(3),
+#locationMap1 #locInfo input:nth-of-type(3) {
+  background: #fff;
+}
+#locationMap #locInfo p:nth-of-type(3),
+#locationMap1 #locInfo p:nth-of-type(3) {
+  background: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+#locationMap #locInfo div,
+#locationMap1 #locInfo div {
+  border-radius: 4px;
+}
+#locationMap #locInfo div.jg,
+#locationMap1 #locInfo div.jg {
+  height: 10px;
+}
+#locationMap .plantImg,
+#locationMap1 .plantImg {
+  width: 32px;
+  height: 50px;
+  float: left;
+}
+#locationMap .plantIcon0,
+#locationMap1 .plantIcon0 {
+  background: url("/images/io/normal.png") center no-repeat;
+}
+#locInfo1 {
+  height: 140px;
+  background: #fff;
+  text-align: left;
+}
+#locInfo1 p {
+  line-height: 44px;
+  background: #01B1ED;
+  color: #fff;
+}
+#locInfo1 p i {
+  margin: 0 10px;
+}
+#locInfo1 p input {
+  height: 34px;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  text-indent: 5px;
+  width: 260px;
+  background: #01B1ED;
+}
+#locInfo1 p input:focus {
+  outline: none;
+}
+#locInfo1 p input[readonly] {
+  border: none;
+}
+#locInfo1 input:nth-of-type(3) {
+  background: #fff;
+}
+#locInfo1 p:nth-of-type(3) {
+  background: #fff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+#locInfo1 div {
+  border-radius: 4px;
+}
+#locInfo1 div.jg {
+  height: 10px;
+}
+table.priceDetail {
+  width: 100%;
+}
+table.priceDetail thead th {
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 1em;
+  color: #253646;
+  background: rgba(12, 188, 220, 0.08);
+}
+table.priceDetail thead th:nth-of-type(1) {
+  text-indent: 10px;
+}
+table.priceDetail tbody td {
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 0.85714em;
+}
+table.priceDetail tbody tr {
+  border-bottom: 1px solid #F2F2F2;
+}
+table.priceDetail tbody tr td:nth-of-type(1) {
+  text-indent: 10px!important;
+}
+.ztree li ul {
+  height: auto;
+}
+.ztree li a.curSelectedNode {
+  border: none;
+  background: none;
+}
+.ztree li a.curSelectedNode .node_name {
+  border-radius: 4px;
+  padding: 4px 5px;
+  background: #01B1ED;
+}
+.ztree li span.button.root_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.root_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.ico_close {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.ico_open {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+.ztree li span.button.center_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.center_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_open {
+  background: url("/images/setting/reduction.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span.button.bottom_close {
+  background: url("/images/setting/add.png");
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+.ztree li span {
+  font-size: 1.14rem;
+  line-height: 24px;
+  font-family: MicrosoftYaHei;
+}
+.ztree li span.button {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.pIcon01_ico_open {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li.level1 {
+  margin-top: 26px;
+}
+.ztree li.level2 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level3 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level4 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level5 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level6 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level7 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level8 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level9 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li.level10 {
+  line-height: 24px;
+  margin-top: 20px;
+}
+.ztree li span.button.pIcon01_ico_close {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon01_ico_docu {
+  margin-right: 7px;
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li a:hover {
+  text-decoration: none;
+}
+.ztree li a.curSelectedNode .node_name {
+  color: #fff;
+}
+.ztree li span.button.icon03 {
+  margin-left: 0px;
+  background: url("/images/setting/addOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+.ztree li span.button.icon04 {
+  margin-left: 0px;
+  background: url("/images/setting/delOr.png") no-repeat scroll 0 0 transparent;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+@media (max-width: 1920px) {
+  .plantInfo .ownerInfo #ownerTable tbody td a {
+    min-width: 30px;
+    padding: 4px 11px;
+  }
+}
+@media (max-width: 1500px) {
+  .plantInfo .ownerInfo #ownerTable tbody td a {
+    min-width: 30px;
+    padding: 4px 5px;
+  }
+}
+@media (max-width: 1366px) {
+  .plantInfo .ownerInfo #ownerTable tbody td a {
+    min-width: 28px;
+    padding: 4px 2px;
+  }
+}
